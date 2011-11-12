@@ -1,0 +1,1276 @@
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0< HTTP/1.1 200 OK
+< Date: Fri, 11 Nov 2011 17:24:25 GMT
+< Server: Mongrel 1.1.5
+< Status: 200
+< ETag: "4bb80bc8e923059e0e74cee3a4ba9559"
+< X-Runtime: 6
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 1988
+< Cache-Control: private, max-age=0, must-revalidate
+* Added cookie _markus_session="BAh7BjoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU%3D--b05126ef98097485ff30a97490e3eddbede87e2f" for domain tikal.red.sandbox, path /markus, expire 1322846669
+< Set-Cookie: _markus_session=BAh7BjoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU%3D--b05126ef98097485ff30a97490e3eddbede87e2f; path=/markus; expires=Fri, 02-Dec-2011 17:24:29 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+ 46  1988   46   930    0     0    193      0  0:00:10  0:00:04  0:00:06   193100  1988  100  1988    0     0    414      0  0:00:04  0:00:04 --:--:--   524* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>MarkUs - login</title>
+  <link href="/markus/stylesheets/main.css?1316126555" media="all" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <div id="login">
+  <div id="login-greeting">Welcome to MarkUs!</div>
+
+  <div id="login-image">
+    <img alt="[Logo] Markus Beta" src="/markus/images/markus_logo_big.png?1316124759" />
+  </div>
+
+  <div id="login-course">CSC108 Fall 2009: Introduction to Computer Programming</div>
+
+    <div id="login-content">
+    <!-- login form -->    
+    <form action="/markus/en" id="login_form" method="post">
+  
+        <label for="user_login">Login</label>        <input id="user_login" name="user_login" tabindex="10" type="text" /><br />
+  
+        <label for="user_password">Password</label>
+        <input id="user_password" name="user_password" tabindex="20" type="password" /><br />
+
+        <input class="button indent_button" name="commit" onclick="if (window.hiddenCommit) { window.hiddenCommit.setAttribute('value', this.value); }else { hiddenCommit = document.createElement('input');hiddenCommit.type = 'hidden';hiddenCommit.value = this.value;hiddenCommit.name = this.name;this.form.appendChild(hiddenCommit); }this.setAttribute('originalValue', this.value);this.disabled = true;this.value='Logging in...';result = (this.form.onsubmit ? (this.form.onsubmit() ? this.form.submit() : false) : this.form.submit());if (result == false) { this.value = this.getAttribute('originalValue');this.disabled = false; }return result;" tabindex="100" type="submit" value="Log in" />
+        
+    </form>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+  try{ document.getElementById('user_login').focus(); } catch(e) {}
+//]]>
+</script>
+
+</body>
+</html>
++++ELAPSED TIME+++ 4.80 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> POST /markus/en HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7BjoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU%3D--b05126ef98097485ff30a97490e3eddbede87e2f
+> Content-Length: 40
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [data not shown]
+100    40    0     0  100    40      0     39  0:00:01  0:00:01 --:--:--    39100    40    0     0  100    40      0     19  0:00:02  0:00:02 --:--:--    19100    40    0     0  100    40      0     13  0:00:03  0:00:03 --:--:--    13100    40    0     0  100    40      0      9  0:00:04  0:00:04 --:--:--     9100    40    0     0  100    40      0      7  0:00:05  0:00:05 --:--:--     7100    40    0     0  100    40      0      6  0:00:06  0:00:06 --:--:--     0100    40    0     0  100    40      0      5  0:00:08  0:00:07  0:00:01     0100    40    0     0  100    40      0      4  0:00:10  0:00:08  0:00:02     0100    40    0     0  100    40      0      4  0:00:10  0:00:09  0:00:01     0100    40    0     0  100    40      0      3  0:00:13  0:00:10  0:00:03     0< HTTP/1.1 302 Moved Temporarily
+< Date: Fri, 11 Nov 2011 17:24:31 GMT
+< Server: Mongrel 1.1.5
+< Status: 302
+< Location: http://tikal.red.sandbox/markus/en/main
+< X-Runtime: 139
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 105
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwIp6ftoGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAinp%2B2gY7ClQ%3D--f29b0ec43a2dcc4f232aaa5c1cbb182766eb20a5" for domain tikal.red.sandbox, path /markus, expire 1322846680
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwIp6ftoGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAinp%2B2gY7ClQ%3D--f29b0ec43a2dcc4f232aaa5c1cbb182766eb20a5; path=/markus; expires=Fri, 02-Dec-2011 17:24:40 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+100   145  100   105  100    40     10      3  0:00:13  0:00:10  0:00:03    15* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<html><body>You are being <a href="http://tikal.red.sandbox/markus/en/main">redirected</a>.</body></html>+++ELAPSED TIME+++ 10.28 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwIp6ftoGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAinp%2B2gY7ClQ%3D--f29b0ec43a2dcc4f232aaa5c1cbb182766eb20a5
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0< HTTP/1.1 302 Moved Temporarily
+< Date: Fri, 11 Nov 2011 17:24:40 GMT
+< Server: Mongrel 1.1.5
+< Status: 302
+< Location: http://tikal.red.sandbox/markus/en/main/assignments
+< X-Runtime: 16
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 117
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwL%2B7E9sGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAv7sT2wY7ClQ%3D--74c809e0d051f152c928f39ae788b034233ba6e3" for domain tikal.red.sandbox, path /markus, expire 1322846689
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwL%2B7E9sGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAv7sT2wY7ClQ%3D--74c809e0d051f152c928f39ae788b034233ba6e3; path=/markus; expires=Fri, 02-Dec-2011 17:24:49 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+100   117  100   117    0     0     12      0  0:00:09  0:00:09 --:--:--    27100   117  100   117    0     0     12      0  0:00:09  0:00:09 --:--:--    35* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<html><body>You are being <a href="http://tikal.red.sandbox/markus/en/main/assignments">redirected</a>.</body></html>+++ELAPSED TIME+++ 9.29 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main/assignments HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwL%2B7E9sGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAv7sT2wY7ClQ%3D--74c809e0d051f152c928f39ae788b034233ba6e3
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0< HTTP/1.1 200 OK
+< Date: Fri, 11 Nov 2011 17:24:49 GMT
+< Server: Mongrel 1.1.5
+< Status: 200
+< ETag: "590455afab6c821a91ba0c9bf6289f5e"
+< X-Runtime: 110
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 6520
+< Cache-Control: private, max-age=0, must-revalidate
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwN%2BZLdsGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvA35kt2wY7ClQ%3D--34d051fbfb81d5fc0d3a7ee08fd7715d2c89ab8a" for domain tikal.red.sandbox, path /markus, expire 1322846690
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwN%2BZLdsGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvA35kt2wY7ClQ%3D--34d051fbfb81d5fc0d3a7ee08fd7715d2c89ab8a; path=/markus; expires=Fri, 02-Dec-2011 17:24:50 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>MarkUs - index</title>
+  <link href="/markus/stylesheets/main.css?1316126555" media="all" rel="stylesheet" type="text/css" />
+  <link href="/markus/stylesheets/livepipe/tabs.css?1316124759" media="all" rel="stylesheet" type="text/css" />
+  <script src="/markus/javascripts/prototype.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/effects.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/dragdrop.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/controls.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/application.js?1316124759" type="text/javascript"></script>  <script src="/markus/javascripts/menu.js?1316124759" type="text/javascript"></script>  
+</head>
+
+<body>
+  <div id="loggedIn">
+  
+
+<script src="/markus/javascripts/livepipe/livepipe.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/tabs.js?1316124759" type="text/javascript"></script>
+
+<div id="header">
+  <div id="user_info">
+    <span id="logout_area">
+      <span id="lang_chooser">
+        Choose Language:
+        <select id="locale" name="locale" onchange="javascript:window.location.href = '/markus/en/main/assignments'.replace(/en/, this.options[this.selectedIndex].value);"><option value="en" selected="selected">en</option>
+<option value="fr">fr</option></select>
+      </span>
+      <a href="#" onclick="new Ajax.Request('/markus/en/main/about', {asynchronous:true, evalScripts:true, onComplete:function(request){about_modal.open();}}); return false;"><img alt="About MarkUs" id="about_icon" src="/markus/images/icons/information.png?1316124759" title="About MarkUs" /></a>
+
+      <span id="admin_logged_in_as">
+        
+      </span>
+      <span id="user_name">
+        Bob 12 Blaster 12
+        ( <b>student_12</b> )
+      </span>
+      
+
+      <a href="/markus/en/main/main/logout/logout_link">Log out</a>
+      
+    </span>
+  </div>
+  <div id="working" style="display:none;">
+    Working...
+  </div>
+  <div id="course">
+    <b>CSC108 Fall 2009: Introduction to Computer Programming</b>
+  </div>
+</div>
+<div id="logo">
+  <a href="http://tikal.red.sandbox/markus/en"><img alt="Markus_logo_small" src="/markus/images/markus_logo_small.png?1316124759" /></a>
+
+
+</div>
+
+  
+
+<div id="menu">
+
+      <span  id ="menu_active">
+	   <a href="/markus/en/main/assignments">Home</a>
+	</span>
+
+
+
+
+</div>
+
+  
+
+<div id="sub_menu">
+  <ul id="root" class="level1 horizontal">
+   <li class="level1 visible_dropdown">
+     
+       <span id="choose_an_assignment">Choose...</span>
+     
+        <ul class="level2 dropdown">
+           
+
+
+
+  
+    
+      
+        <li class="level2">
+          <a href="/markus/en/main/assignments/student_interface/2">A2</a>
+        </li>
+      
+    
+  
+
+  
+    
+      
+        <li class="level2">
+          <a href="/markus/en/main/assignments/student_interface/1">A1</a>
+        </li>
+      
+    
+  
+
+
+
+
+
+
+
+
+        </ul>
+   </li>
+	 
+  
+	
+  
+   </ul>
+</div>
+
+
+
+  <script src="/markus/javascripts/livepipe/livepipe.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1316124759" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+  
+ var about_modal = null;
+
+ document.observe("dom:loaded", function(){
+    about_modal = new Control.Modal($('about_dialog'), {
+      overlayOpacity: 0.75,
+      className: 'about_modal',
+      fade: false
+    });
+ });
+//]]>
+</script>
+<!-- about scaffold -->
+<div id="about_dialog" style="display: none;">
+  <!-- about dialog content gets injected here -->
+  <div>&nbsp;</div>
+</div>
+
+  <script src="/markus/javascripts/livepipe/livepipe.js?13161247100  6520  100  6520    0     0   3859      0  0:00:01  0:00:01 --:--:--  3867* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+59" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1316124759" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var role_switch_modal = null;
+
+document.observe("dom:loaded", function(){
+    //Create the modal dialog
+  role_switch_modal = new Control.Modal($('role_switch_dialog'),
+  {
+    overlayOpacity: 0.75,
+    className: 'role_switch_modal',
+    fade:false
+
+  });
+});
+//]]>
+</script>
+
+<div id="role_switch_dialog" style="display:none;">
+  <!-- Role switch content gets injected here -->
+  <div>&nbsp;</div>
+</div>
+
+<div id="container">
+  <div id="content">
+<noscript>
+<div class="warning">
+This page uses Javascript. Your browser either doesn't support javascript
+or you have turned it off. <br />
+To see this page as it is meant to appear, please use a Javascript
+enable browser.
+</div>
+</noscript>
+
+    <div class="title_bar"><h1>Your Assignments</h1></div>
+<div class="wrapLeft">
+<div class="section">
+
+  
+		
+    <table><!-- listing assignments -->
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Due Date</th>
+          <th>Results</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr>
+            <td>
+              <a href="/markus/en/main/assignments/student_interface/1">A1: Conditionals and Loops</a>
+            </td>
+            <td>
+              
+                
+                  <strong>November 11, 2011: 12:17pm</strong>
+                
+	      
+            </td>
+            <td style="width: 40%;">
+              
+                No marks are available for this assignment.
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>
+              <a href="/markus/en/main/assignments/student_interface/2">A2: Cats and Dogs</a>
+            </td>
+            <td>
+              
+                
+                  <strong>December 11, 2011: 12:16pm</strong><br />
+                    (29 day(s) and 23 hour(s) left)
+                
+	      
+            </td>
+            <td style="width: 40%;">
+              
+            </td>
+          </tr>
+        
+      </tbody>
+    </table>
+        
+  
+</div>
+</div>
+
+<div class="title_bar"><h1>Your Term Marks</h1></div>
+<div class="wrapLeft">
+  
+
+<div class="section">
+
+  
+    <p>There are currently no marks spreadsheets.</p>  
+  
+</div>
+
+</div>
+
+
+  </div> <!-- content -->
+</div> <!-- container -->
+</div>
+
+</body>
+</html>
++++ELAPSED TIME+++ 1.69 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main/assignments/student_interface/1 HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwN%2BZLdsGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvA35kt2wY7ClQ%3D--34d051fbfb81d5fc0d3a7ee08fd7715d2c89ab8a
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0< HTTP/1.1 302 Moved Temporarily
+< Date: Fri, 11 Nov 2011 17:24:51 GMT
+< Server: Mongrel 1.1.5
+< Status: 302
+< Location: http://tikal.red.sandbox/markus/en/main/assignments/student_interface/1
+< X-Runtime: 3747
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 137
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwM5iqdsGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAzmKp2wY7ClQ%3D--8a8da64e16a6b7fc008ceaa60cdc72ec7747fbfd" for domain tikal.red.sandbox, path /markus, expire 1322846702
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwM5iqdsGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAzmKp2wY7ClQ%3D--8a8da64e16a6b7fc008ceaa60cdc72ec7747fbfd; path=/markus; expires=Fri, 02-Dec-2011 17:25:02 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+100   137  100   137    0     0     11      0  0:00:12  0:00:11  0:00:01    30100   137  100   137    0     0     11      0  0:00:12  0:00:11  0:00:01    39* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<html><body>You are being <a href="http://tikal.red.sandbox/markus/en/main/assignments/student_interface/1">redirected</a>.</body></html>+++ELAPSED TIME+++ 11.46 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main/submissions/file_manager/1 HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwM5iqdsGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAzmKp2wY7ClQ%3D--8a8da64e16a6b7fc008ceaa60cdc72ec7747fbfd
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0< HTTP/1.1 200 OK
+< Date: Fri, 11 Nov 2011 17:25:03 GMT
+< Server: Mongrel 1.1.5
+< Status: 200
+< ETag: "0b07ab651a8f03927392a3bba24e8075"
+< X-Runtime: 45
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 10078
+< Cache-Control: private, max-age=0, must-revalidate
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwMXsl9wGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAxeyX3AY7ClQ%3D--e9d4cccc0dca3510e8e387cb43350fd5b9f541df" for domain tikal.red.sandbox, path /markus, expire 1322846709
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwMXsl9wGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAxeyX3AY7ClQ%3D--e9d4cccc0dca3510e8e387cb43350fd5b9f541df; path=/markus; expires=Fri, 02-Dec-2011 17:25:09 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>MarkUs - file_manager</title>
+  <link href="/markus/stylesheets/main.css?1316126555" media="all" rel="stylesheet" type="text/css" />
+  <link href="/markus/stylesheets/livepipe/tabs.css?1316124759" media="all" rel="stylesheet" type="text/css" />
+  <script src="/markus/javascripts/prototype.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/effects.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/dragdrop.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/controls.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/application.js?1316124759" type="text/javascript"></script>  <script src="/markus/javascripts/menu.js?1316124759" type="text/javascript"></script>  
+</head>
+
+<body>
+  <div id="loggedIn">
+  
+
+<script src="/markus/javascripts/livepipe/livepipe.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/tabs.js?1316124759" type="text/javascript"></script>
+
+<div id="header">
+  <div id="user_info">
+    <span id="logout_area">
+      <span id="lang_chooser">
+        Choose Language:
+        <select id="locale" name="locale" onchange="javascript:window.location.href = '/markus/en/main/submissions/file_manager/1'.replace(/en/, this.options[this.selectedIndex].value);"><option value="en" selected="selected">en</option>
+<option value="fr">fr</option></select>
+      </span>
+      <a href="#" onclick="new Ajax.Request('/markus/en/main/about', {asynchronous:true, evalScripts:true, onComplete:function(request){about_modal.open();}}); return false;"><img alt="About MarkUs" id="about_icon" src="/markus/images/icons/information.png?1316124759" title="About MarkUs" /></a>
+
+      <span id="admin_logged_in_as">
+        
+      </span>
+      <span id="user_name">
+        Bob 12 Blaster 12
+        ( <b>student_12</b> )
+      </span>
+      
+
+      <a href="/markus/en/main/main/logout/logout_link">Log out</a>
+      
+    </span>
+  </div>
+  <div id="working" style="display:none;">
+    Working...
+  </div>
+  <div id="course">
+    <b>CSC108 Fall 2009: Introduction to Computer Programming</b>
+  </div>
+</div>
+<div id="logo">
+  <a href="http://tikal.red.sandbox/markus/en"><img alt="Markus_logo_small" src="/markus/images/markus_logo_small.png?1316124759" /></a>
+
+
+</div>
+
+  
+
+<div id="menu">
+
+      <span  id ="menu_active">
+	   <a href="/markus/en/main/assignments">Home</a>
+	</span>
+
+
+
+
+</div>
+
+  
+
+<div id="sub_menu">
+  <ul id="root" class="level1 horizontal">
+   <li class="level1 visible_dropdown">
+     
+       
+       <span id="choose_an_assignment">A1</span>
+    
+        <ul class="level2 dropdown">
+           
+
+
+
+  
+    
+      <li class="level2">
+      	
+         
+		<a href="/markus/en/main/submissions/file_manager/2">A2</a>
+      </li>
+    
+  
+
+  
+      <li class="level2">
+        <p id="drop_down_current_assignment">
+          A1
+        </p>
+      </li>
+  
+
+
+
+
+
+
+
+
+        </ul>
+   </li>
+	 
+  
+	
+  
+ <li >
+	  <a href="/markus/en/main/assignments/student_interface/1">Assignments</a>
+  </li>
+  <li  
+          id="sub_menu_active"
+        >
+	  <a href="/markus/en/main/submissions/file_manager/1">Submissions</a>
+  </li>
+   <li >
+	  <a href="/markus/en/main/results/view_marks/1">Results</a>
+  </li>
+   
+   </ul>
+</div>
+
+
+
+  <script src="/markus/javascripts/livepipe/livepipe.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1316124759" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+  
+ var about_modal = null;
+
+ document.observe("dom:loaded", function(){
+    about_modal = new Control.Modal($('about_dialog'), {
+      overlayOpacity: 0.75,
+      className: 'about_modal',
+      fade: false
+    });
+ });
+//]]>
+</script>
+<!-- about scaffold -->
+<div id="about_dialog" style="display: none;">
+  <!-- about dialog content gets injected here -->
+  <div>&nbsp;</div>
+</div>
+
+  <script src="/markus/javascripts/livepipe/livepipe.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1316124759" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var role_switch_modal = null;
+
+document.observe("dom:loaded", function(){
+    //Create the modal dialog
+  role_switch_modal = new Control.Modal($('role_switch_dialog'),
+  {
+    overlayOpacity: 0.75,
+    className: 'role_switch_modal',
+    fade:false
+
+  });
+});
+//]]>
+</script>
+
+<div id="role_switch_dialog" style="display:none;">
+  <!-- Role switch content gets injected here -->
+  <div>&nbsp;</div>
+</div>
+
+<div id="container">
+  <div id="content">
+<noscript>
+<div class="warning">
+This page uses Javascript. Your browser either doesn't support javascript
+or you have turned it off. <br />
+To see this page as it is meant to appear, please use a Javascript
+enable browser.
+</div>
+</noscript>
+
+    <script src="/markus/javascripts/file_manager.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/FilterTable/FilterTable.js?1316124759" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var onbeforeunload_flag = false;
+
+function set_onbeforeunload(value) {
+  onbeforeunload_flag = value;
+}
+
+function show_confirmation(evt) {
+  if (onbeforeunload_flag) {
+    
+    evt.returnValue = 'Your changes are not yet saved, do you still want to navigate away?';
+  }
+}
+
+// register basic handler
+window.onbeforeunload = show_confirmation;
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+var files_table = null;
+
+document.observe("dom:loaded", function() {
+  files_table = new FilterTable({
+    table_id: $('files'),
+    headers: {
+      filename: {display: "Filename", sortable: true},
+      last_modified_date: {display: "Last Revised", sortable: true},
+      revision_by: {display: "Revised By", sortable: true}
+      ,
+      replace: {display: "Replace", sortable: false},
+      delete_file: {display: "Delete", sortable :false, row_class: "delete_row"}
+      
+    },
+    can_select: false,
+    can_select_all: false,
+    can_sort: true,
+    default_sort: 'filename',
+    row_prefix: "files_row_",
+    select_name: "files[]",
+    select_id_prefix: "file_select_",
+    footer: true,
+    above_tbodys: ['directories_tbody', 'add_file_tbody'],
+    sorts: {
+      last_modified_date: function(a, b) {
+        return new Date(a['last_modified_date_unconverted']) < new Date(b['last_modified_date_unconverted']);
+      }
+    }
+  });
+  
+  new Ajax.Request('/markus/en/main/submissions/populate_file_manager/1?path=%2F', {asynchronous:true, evalScripts:true, onComplete:function(request){$('loading_list').hide();}}) 
+
+});
+
+/*
+ * Do the same as what would be done server side in terms
+ * of filename sanitation. Warn the user what would happen
+ * if submit is pressed.
+ * See also: public/javascripts/file_manager.js
+ */
+function sanitized_filename_check(file_input) {
+  file_name = file_input.value;
+  sanitized_filename = file_name.replace(/[^0-9a-zA-Z\.\-_]/g,
+  '_');
+  if (file_name != sanitized_filename) {
+    msg = "After you submit the filename will change from '" + file_name + "' to '" + sanitized_filename + "'. Is that OK?";
+    if( !confirm(msg) ) {
+      $(file_input).setValue('');
+    };
+  }
+}
+
+/* 
+ * Check that new_file_name is the same as file_name. Otherwise
+ * refuse to accept the new filename. Note that this is called
+ * on the replace file upload button.
+ * See also: public/javascripts/file_manager.js
+ */
+function check_change_of_filename(file_name, new_file_name, file_input) {
+  new_file_name = normalize_filename(new_file_name);
+  if(file_name != new_file_name) {
+    alert("You cannot replace '" + file_name + "' with '" + new_file_name + "'. You must replace a file with a file which has the same name.");
+    $(file_input).setValue('');
+  }
+}
+
+//]]100 10078  100 10078    0     0   1424      0  0:00:07  0:00:07 --:--:--  2478* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+>
+</script>
+
+
+<div id="title_bar">
+  <h1>A1: File Manager</h1>
+  <div id="current_time">  
+    <strong>Server Time:</strong>
+  November 11, 2011: 12:25pm
+
+  <script type="text/javascript">
+//<![CDATA[
+new PeriodicalExecuter(function() {new Ajax.Updater('current_time', '/markus/en/main/submissions/server_time', {asynchronous:true, evalScripts:true})}, 60)
+//]]>
+</script>
+  </div>
+</div>
+
+
+<div class="wrapLeft">
+  
+
+
+<div id="directory_selector" style="display:none;">
+<p>
+  Current Path: 
+  
+  <a href="/markus/en/main/submissions/file_manager/1?path=%2F">[root]</a>
+  
+
+</p>
+</div>
+
+
+
+
+
+
+  <div class="warning">
+    The due date for this assignment has passed.  Only what was in your folder at the due date will be graded.
+  </div>
+
+
+
+
+
+
+
+
+
+
+<form action="/markus/en/main/submissions/update_files/1" enctype="multipart/form-data" id="submit_form" method="post">
+
+
+<div class="global_action">
+<span id="loading_list"><img alt="Spinner" src="/markus/images/spinner.gif?1316124759" /> Loading List...
+</span>
+
+
+  <input onclick="injectFileInput(); set_onbeforeunload(true);;" type="button" value="Add new" />
+
+
+
+
+<input name="commit" onclick="set_onbeforeunload(false);" type="submit" value="Submit" />
+<a href="/markus/en/main/submissions/file_manager/1" class="button" id="1" onclick="set_onbeforeunload(false); return confirm('Are you sure you want to discard your changes?');">Cancel</a>
+
+</div>
+
+<div class="clear"></div>
+
+  <table class="files" id="files">
+  </table>
+
+
+<div class="global_action">
+<input name="commit" onclick="set_onbeforeunload(false);" type="submit" value="Submit" />
+<a href="/markus/en/main/submissions/file_manager/1" class="button" id="1" onclick="set_onbeforeunload(false); return confirm('Are you sure you want to discard your changes?');">Cancel</a>
+</div>
+</form>
+
+
+</div> 
+
+  </div> <!-- content -->
+</div> <!-- container -->
+</div>
+
+</body>
+</html>
++++ELAPSED TIME+++ 7.08 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> POST /markus/en/main/submissions/update_files/1 HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwMXsl9wGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvAxeyX3AY7ClQ%3D--e9d4cccc0dca3510e8e387cb43350fd5b9f541df
+> Content-Length: 81416
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------4f0063990d81
+> 
+< HTTP/1.1 100 Continue
+} [data not shown]
+100 81416    0     0  100 81416      0  80401  0:00:01  0:00:01 --:--:-- 80609100 81416    0     0  100 81416      0  40418  0:00:02  0:00:02 --:--:-- 40465100 81416    0     0  100 81416      0  26994  0:00:03  0:00:03 --:--:-- 27021100 81416    0     0  100 81416      0  20264  0:00:04  0:00:04 --:--:-- 20277100 81416    0     0  100 81416      0  16220  0:00:05  0:00:05 --:--:-- 16228100 81416    0     0  100 81416      0  13521  0:00:06  0:00:06 --:--:--     0100 81416    0     0  100 81416      0  11593  0:00:07  0:00:07 --:--:--     0100 81416    0     0  100 81416      0  10145  0:00:08  0:00:08 --:--:--     0100 81416    0     0  100 81416      0   9019  0:00:09  0:00:09 --:--:--     0< HTTP/1.1 200 OK
+< Date: Fri, 11 Nov 2011 17:25:10 GMT
+< Server: Mongrel 1.1.5
+< Status: 200
+< ETag: "ebbd47d44910a1c17b4b7776e7c7e103"
+< X-Runtime: 2653
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 10288
+< Cache-Control: private, max-age=0, must-revalidate
+* Replaced cookie _markus_session="BAh7CToPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwOxYDN0GOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvA7FgM3QY7ClQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BzoMc3VjY2VzcyIhWW91ciBjaGFuZ2VzIGhhdmUgYmVlbiBtYWRlLjoSY29tbWl0X25vdGljZSJ7VGhlIGR1ZSBkYXRlIGZvciB0aGlzIGFzc2lnbm1lbnQgaGFzIHBhc3NlZC4gIFlvdXIgY2hhbmdlcyBoYXZlIGJlZW4gcmVjb3JkZWQsIGJ1dCB3aWxsIG5vdCBiZSBpbmNsdWRlZCBpbiB0aGUgZ3JhZGluZwY6CkB1c2Vkewc7DEY7DUY%3D--9e479219661f2adcc3b75ebb98995a1d411990f3" for domain tikal.red.sandbox, path /markus, expire 1322846719
+< Set-Cookie: _markus_session=BAh7CToPc2Vzc2lvbl9pZCIlOGE4ZTYzNDlkYTg3MjIyYTc3YjRkZmFhYzNhZTM4ZGU6CHVpZGkB6ToMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNcekbwOxYDN0GOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CQ1s6RvA7FgM3QY7ClQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BzoMc3VjY2VzcyIhWW91ciBjaGFuZ2VzIGhhdmUgYmVlbiBtYWRlLjoSY29tbWl0X25vdGljZSJ7VGhlIGR1ZSBkYXRlIGZvciB0aGlzIGFzc2lnbm1lbnQgaGFzIHBhc3NlZC4gIFlvdXIgY2hhbmdlcyBoYXZlIGJlZW4gcmVjb3JkZWQsIGJ1dCB3aWxsIG5vdCBiZSBpbmNsdWRlZCBpbiB0aGUgZ3JhZGluZwY6CkB1c2Vkewc7DEY7DUY%3D--9e479219661f2adcc3b75ebb98995a1d411990f3; path=/markus; expires=Fri, 02-Dec-2011 17:25:19 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+ 89 91704    4   422  100 81416     42   8223  0:04:04  0:00:09  0:03:55     0<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>MarkUs - update_files</title>
+  <link href="/markus/stylesheets/main.css?1316126555" media="all" rel="stylesheet" type="text/css" />
+  <link href="/markus/stylesheets/livepipe/tabs.css?1316124759" media="all" rel="stylesheet" type="text/css" />
+  <script src="/markus/javascripts/prototype.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/effects.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/dragdrop.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/controls.js?1316126555" type="text/javascript"></script>
+<script src="/markus/javascripts/application.js?1316124759" type="text/javascript"></script>  <script src="/markus/javascripts/menu.js?1316124759" type="text/javascript"></script>  
+</head>
+
+<body>
+  <div id="loggedIn">
+  
+
+<script src="/markus/javascripts/livepipe/livepipe.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/tabs.js?1316124759" type="text/javascript"></script>
+
+<div id="header">
+  <div id="user_info">
+    <span id="logout_area">
+      <span id="lang_chooser">
+        Choose Language:
+        <select id="locale" name="locale" onchange="javascript:window.location.href = '/markus/en/main/submissions/update_files/1'.replace(/en/, this.options[this.selectedIndex].value);"><option value="en" selected="selected">en</option>
+<option value="fr">fr</option></select>
+      </span>
+      <a href="#" onclick="new Ajax.Request('/markus/en/main/about', {asynchronous:true, evalScripts:true, onComplete:function(request){about_modal.open();}}); return false;"><img alt="About MarkUs" id="about_icon" src="/markus/images/icons/information.png?1316124759" title="About MarkUs" /></a>
+
+      <span id="admin_logged_in_as">
+        
+      </span>
+      <span id="user_name">
+        Bob 12 Blaster 12
+        ( <b>student_12</b> )
+      </span>
+      
+
+      <a href="/markus/en/main/main/logout/logout_link">Log out</a>
+      
+    </span>
+  </div>
+  <div id="working" style="display:none;">
+    Working...
+  </div>
+  <div id="course">
+    <b>CSC108 Fall 2009: Introduction to Computer Programming</b>
+  </div>
+</div>
+<div id="logo">
+  <a href="http://tikal.red.sandbox/markus/en"><img alt="Markus_logo_small" src="/markus/images/markus_logo_small.png?1316124759" /></a>
+
+
+</div>
+
+  
+
+<div id="menu">
+
+      <span  id ="menu_active">
+	   <a href="/markus/en/main/assignments">Home</a>
+	</span>
+
+
+
+
+</div>
+
+  
+
+<div id="sub_menu">
+  <ul id="root" class="level1 horizontal">
+   <li class="level1 visible_dropdown">
+     
+       
+       <span id="choose_an_assignment">A1</span>
+    
+        <ul class="level2 dropdown">
+           
+
+
+
+  
+    
+      <li class="level2">
+      	
+         
+		<a href="/markus/en/main/submissions/update_files/2">A2</a>
+      </li>
+    
+  
+
+  
+      <li class="level2">
+        <p id="drop_down_current_assignment">
+          A1
+        </p>
+      </li>
+  
+
+
+
+
+
+
+
+
+        </ul>
+   </li>
+	 
+  
+	
+  
+ <li >
+	  <a href="/markus/en/main/assignments/student_interface/1">Assignments</a>
+  </li>
+  <li  
+          id="sub_menu_active"
+        >
+	  <a href="/markus/en/main/submissions/file_manager/1">Submissions</a>
+  </li>
+   <li >
+	  <a href="/markus/en/main/results/view_marks/1">Results</a>
+  </li>
+   
+   </ul>
+</div>
+
+
+
+  <script src="/markus/javascripts/livepipe/livepipe.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1316124759" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+  
+ var about_modal = null;
+
+ document.observe("dom:loaded", function(){
+    about_modal = new Control.Modal($('about_dialog'), {
+      overlayOpacity: 0.75,
+      className: 'about_modal',
+      fade: false
+    });
+ });
+//]]>
+</script>
+<!-- about scaffold -->
+<div id="about_dialog" style="display: none;">
+  <!-- about dialog content gets injected here -->
+  <div>&nbsp;</div>
+</div>
+
+  <script src="/markus/javascripts/livepipe/livepipe.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1316124759" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var role_switch_modal = null;
+
+document.observe("dom:loaded", function(){
+    //Create the modal dialog
+  role_switch_modal = new Control.Modal($('role_switch_dialog'),
+  {
+    overlayOpacity: 0.75,
+    className: 'role_switch_modal',
+    fade:false
+
+  });
+});
+//]]>
+</script>
+
+<div id="role_switch_dialog" style="display:none;">
+  <!-- Role switch content gets injected here -->
+  <div>&nbsp;</div>
+</div>
+
+<div id="container">
+  <div id="content">
+<noscript>
+<div class="warning">
+This page uses Javascript. Your browser either doesn't support javascript
+or you have turned it off. <br />
+To see this page as it is meant to appear, please use a Javascript
+enable browser.
+</div>
+</noscript>
+
+    <script src="/markus/javascripts/file_manager.js?1316124759" type="text/javascript"></script>
+<script src="/markus/javascripts/FilterTable/FilterTable.js?1316124759" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var onbeforeunload_flag = false;
+
+function set_onbeforeunload(value) {
+  onbeforeunload_flag = value;
+}
+
+function show_confirmation(evt) {
+  if (onbeforeunload_flag) {
+    
+    evt.returnValue = 'Your changes are not yet saved, do you still want to navigate away?';
+  }
+}
+
+// register basic handler
+window.onbeforeunload = show_confirmation;
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+var files_table = null;
+
+document.observe("dom:loaded", function() {
+  files_table = new FilterTable({
+    table_id: $('files'),
+    headers: {
+      filename: {display: "Filename", sortable: true},
+      last_modified_date: {display: "Last Revised", sortable: true},
+      revision_by: {display: "Revised By", sortable: true}
+      ,
+      replace: {display: "Replace", sortable: false},
+      delete_file: {display: "Delete", sortable :false, row_class: "delete_row"}
+      
+    },
+    can_select: false,
+    can_select_all: false,
+    can_sort: true,
+    default_sort: 'filename',
+    row_prefix: "files_row_",
+    select_name: "files[]",
+    select_id_prefix: "file_select_",
+    footer: true,
+    above_tbodys: ['directories_tbody', 'add_file_tbody'],
+    sorts: {
+      last_modified_date: function(a, b) {
+        return new Date(a['last_modified_date_unconverted']) < new Date(b['last_modified_date_unconverted']);
+      }
+    }
+  });
+  
+  new Ajax.Request('/markus/en/main/submissions/populate_file_manager/1?path=%2F', {asynchronous:true, evalScripts:true, onComplete:function(request){$('loading_list').hide();}}) 
+
+});
+
+/*
+ * Do the same as what would be done server side in terms
+ * of filename sanitation. Warn the user what would happen
+ * if submit is pressed.
+ * See also: public/javascripts/file_manager.js
+ */
+function sanitized_filename_check(file_input) {
+  file_name = file_input.value;
+  sanitized_filename = file_name.replace(/[^0-9a-zA-Z\.\-_]/g,
+  '_');
+  if (file_name != sanitized_filename) {
+    msg = "After you submit the filename will change from '" + file_name + "' to '" + sanitized_filename + "'. Is that OK?";
+    if( !confirm(msg) ) {
+      $(file_input).setValue('');
+    };
+  }
+}
+
+/* 
+ * Check that new_file_name is the same as file_name. Otherwise
+ * refuse to accept the new filename. Note that this is called
+ * on the replace file upload button.
+ * See also: public/javascripts/file_manager.js
+ */
+function check_change_of_filename(file_name, new_file_name, file_input) {
+  new_file_name = normalize_filename(new_file_name);
+  if(file_name != new_file_name) {
+    alert("You cannot replace '" + file_name + "' with '" + new_file_name + "'. You must replace a file with a file which has the same name.");
+    $(file_input).setValue('');
+  }
+}
+
+//]]100 91704  100 10288  100 81416   1039   8222  0:00:09  0:00:09 --:--:--     0* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+>
+</script>
+
+
+<div id="title_bar">
+  <h1>A1: File Manager</h1>
+  <div id="current_time">  
+    <strong>Server Time:</strong>
+  November 11, 2011: 12:25pm
+
+  <script type="text/javascript">
+//<![CDATA[
+new PeriodicalExecuter(function() {new Ajax.Updater('current_time', '/markus/en/main/submissions/server_time', {asynchronous:true, evalScripts:true})}, 60)
+//]]>
+</script>
+  </div>
+</div>
+
+
+<div class="wrapLeft">
+  
+
+
+<div id="directory_selector" style="display:none;">
+<p>
+  Current Path: 
+  
+  <a href="/markus/en/main/submissions/file_manager?path=%2F">[root]</a>
+  
+
+</p>
+</div>
+
+
+
+
+  <div class="success">Your changes have been made.</div>
+
+
+
+  <div class="warning">
+    The due date for this assignment has passed.  Only what was in your folder at the due date will be graded.
+  </div>
+
+
+
+
+
+  <div class="warning">
+    The due date for this assignment has passed.  Your changes have been recorded, but will not be included in the grading
+  </div>
+
+
+
+
+
+
+<form action="/markus/en/main/submissions/update_files/1" enctype="multipart/form-data" id="submit_form" method="post">
+
+
+<div class="global_action">
+<span id="loading_list"><img alt="Spinner" src="/markus/images/spinner.gif?1316124759" /> Loading List...
+</span>
+
+
+  <input onclick="injectFileInput(); set_onbeforeunload(true);;" type="button" value="Add new" />
+
+
+
+
+<input name="commit" onclick="set_onbeforeunload(false);" type="submit" value="Submit" />
+<a href="/markus/en/main/submissions/file_manager" class="button" id="1" onclick="set_onbeforeunload(false); return confirm('Are you sure you want to discard your changes?');">Cancel</a>
+
+</div>
+
+<div class="clear"></div>
+
+  <table class="files" id="files">
+  </table>
+
+
+<div class="global_action">
+<input name="commit" onclick="set_onbeforeunload(false);" type="submit" value="Submit" />
+<a href="/markus/en/main/submissions/file_manager" class="button" id="1" onclick="set_onbeforeunload(false); return confirm('Are you sure you want to discard your changes?');">Cancel</a>
+</div>
+</form>
+
+
+</div> 
+
+  </div> <!-- content -->
+</div> <!-- container -->
+</div>
+
+</body>
+</html>
++++ELAPSED TIME+++ 9.90 +++

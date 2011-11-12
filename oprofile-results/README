@@ -1,0 +1,19 @@
+Note that vmlinux has been compiled in a similar way as described here:
+http://lovebug356.blogspot.com/2008/06/oprofile-setup-on-ubuntu.html
+
+Profiling results have been obtained via the following sequence of commands on
+the server machine:
+
+(as root)
+$ uname -r
+2.6.32-34-generic
+$ opcontrol --vmlinux=path/to/vmlinux 
+$ opcontrol --start-daemon 
+$ opcontrol --start 
+<ran ./run-load-tests.sh this makes client machines hammer the server>
+<once all requests have finished processing do>
+$ opcontrol --stop
+$ opcontrol --dump
+$ opreport > results.txt
+
+Results files (results.txt above) are listed in this directory.
