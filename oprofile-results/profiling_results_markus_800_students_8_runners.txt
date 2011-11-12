@@ -1,0 +1,463 @@
+CPU: Core 2, speed 1596 MHz (estimated)
+Counted CPU_CLK_UNHALTED events (Clock cycles when not halted) with a unit mask of 0x00 (Unhalted core cycles) count 100000
+CPU_CLK_UNHALT...|
+  samples|      %|
+------------------
+  4901904 43.1977 libruby.so.1.8.7
+  1736369 15.3016 vmlinux
+  1736145 15.2997 libc-2.11.1.so
+   756921  6.6703 libxul.so
+   405857  3.5766 libmozjs.so
+   286479  2.5246 postgres
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	   285413 99.6279 postgres
+	      297  0.1037 [vdso] (tgid:25039 range:0xca5000-0xca6000)
+	      296  0.1033 [vdso] (tgid:25040 range:0xca5000-0xca6000)
+	      287  0.1002 [vdso] (tgid:25030 range:0xca5000-0xca6000)
+	       69  0.0241 [vdso] (tgid:27591 range:0xca5000-0xca6000)
+	       64  0.0223 [vdso] (tgid:27592 range:0xca5000-0xca6000)
+	       27  0.0094 [vdso] (tgid:27594 range:0xca5000-0xca6000)
+	       26  0.0091 [vdso] (tgid:27593 range:0xca5000-0xca6000)
+   234246  2.0643 libapr-1.so.0.3.8
+   143488  1.2645 libsvn_subr-1.so.0.0.0
+   113886  1.0036 libpixman-1.so.0.16.4
+    94656  0.8342 libpthread-2.11.1.so
+    68705  0.6055 intel_drv.so
+    63780  0.5621 libz.so.1.2.3.3
+    56286  0.4960 Xorg (deleted)
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	    53051 94.2526 Xorg (deleted)
+	     3235  5.7474 [vdso] (tgid:904 range:0x795000-0x796000)
+    54277  0.4783 libfontconfig.so.1.4.4
+    53079  0.4678 firefox-bin
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	    46820 88.2081 firefox-bin
+	     5984 11.2738 [vdso] (tgid:26296 range:0xc9d000-0xc9e000)
+	      225  0.4239 anon (tgid:26296 range:0xa8aa000-0xa8ba000)
+	       50  0.0942 anon (tgid:26296 range:0x1fc8e000-0x1fc9e000)
+    49890  0.4397 oprofiled
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	    49856 99.9319 oprofiled
+	       34  0.0681 [vdso] (tgid:14733 range:0x551000-0x552000)
+    48028  0.4232 libcairo.so.2.10800.10
+    46208  0.4072 oprofile
+    43841  0.3863 libsvn_swig_ruby-1.so.0.0.0
+    41464  0.3654 libglib-2.0.so.0.2400.1
+    39997  0.3525 libcrypto.so.0.9.8
+    33353  0.2939 libnspr4.so
+    32352  0.2851 libsvn_fs_fs-1.so.0.0.0
+    26467  0.2332 drm
+    24621  0.2170 libaprutil-1.so.0.3.9
+    20521  0.1808 libsqlite3.so.0.8.6
+    16751  0.1476 i915
+    15861  0.1398 apache2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	    13874 87.4724 apache2
+	      526  3.3163 [vdso] (tgid:9799 range:0x529000-0x52a000)
+	      499  3.1461 [vdso] (tgid:26443 range:0x529000-0x52a000)
+	      482  3.0389 [vdso] (tgid:9880 range:0x529000-0x52a000)
+	      476  3.0011 [vdso] (tgid:15172 range:0x529000-0x52a000)
+	        4  0.0252 [vdso] (tgid:28832 range:0x529000-0x52a000)
+    15695  0.1383 ruby
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     5389 34.3358 [vdso] (tgid:25017 range:0xa93000-0xa94000)
+	     5250 33.4501 [vdso] (tgid:25020 range:0xfb4000-0xfb5000)
+	     5056 32.2141 [vdso] (tgid:25014 range:0xc83000-0xc84000)
+    13639  0.1202 libgobject-2.0.so.0.2400.1
+    12561  0.1107 libpq.so.5.2
+    12083  0.1065 libgdk-x11-2.0.so.0.2000.1
+    10299  0.0908 libdrm_intel.so.1.0.0
+    10108  0.0891 ld-2.11.1.so
+     8225  0.0725 libX11.so.6.3.0
+     7316  0.0645 bash
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     7301 99.7950 bash
+	        6  0.0820 [vdso] (tgid:14998 range:0xdff000-0xe00000)
+	        4  0.0547 [vdso] (tgid:16122 range:0x5e2000-0x5e3000)
+	        2  0.0273 [vdso] (tgid:24732 range:0xfdf000-0xfe0000)
+	        1  0.0137 [vdso] (tgid:15555 range:0x66f000-0x670000)
+	        1  0.0137 [vdso] (tgid:15691 range:0xbeb000-0xbec000)
+	        1  0.0137 [vdso] (tgid:18179 range:0xf1e000-0xf1f000)
+     6723  0.0592 libdbus-1.so.3.4.0
+     5822  0.0513 i915_dri.so
+     5082  0.0448 libm-2.11.1.so
+     4439  0.0391 libxcb.so.1.1.0
+     4384  0.0386 libgtk-x11-2.0.so.0.2000.1
+     4351  0.0383 core.so
+     3774  0.0333 libsqlite3.so
+     3652  0.0322 pg_ext.so
+     3342  0.0295 libfb.so (deleted)
+     3302  0.0291 atl1
+     3257  0.0287 compiz
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     2670 81.9773 compiz
+	      534 16.3955 [vdso] (tgid:29872 range:0xc98000-0xc99000)
+	       53  1.6273 anon (tgid:29872 range:0x2fd1000-0x39d1000)
+     2989  0.0263 libstdc++.so.6.0.13
+     2688  0.0237 libmurrine.so
+     2655  0.0234 fs.so
+     2398  0.0211 libORBit-2.so.0.1.0
+     2308  0.0203 librt-2.11.1.so
+     2060  0.0182 mod_status.so
+     2023  0.0178 libfade.so
+     1941  0.0171 libresolv-2.11.1.so
+     1936  0.0171 libXrender.so.1.3.0
+     1613  0.0142 libplds4.so
+     1562  0.0138 mod_proxy_http.so
+     1545  0.0136 libsvn_fs_util-1.so.0.0.0
+     1498  0.0132 repos.so
+     1487  0.0131 mod_proxy.so
+     1339  0.0118 libsvn_fs-1.so.0.0.0
+     1309  0.0115 libgio-2.0.so.0.2400.1
+     1289  0.0114 libextmod.so (deleted)
+     1251  0.0110 libpcre.so.3.12.1
+     1193  0.0105 libgvfscommon.so.0.0.0
+     1119  0.0099 stringio.so
+     1039  0.0092 libGL.so.1.2
+      985  0.0087 libsvn_repos-1.so.0.0.0
+      962  0.0085 fastthread.so
+      902  0.0079 http11.so
+      857  0.0076 mod_rewrite.so
+      786  0.0069 libnss_files-2.11.1.so
+      766  0.0068 sshd
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      697 90.9922 sshd
+	       39  5.0914 [vdso] (tgid:14859 range:0xa1c000-0xa1d000)
+	       30  3.9164 [vdso] (tgid:10525 range:0x67c000-0x67d000)
+      755  0.0067 screen
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      740 98.0132 screen
+	       14  1.8543 [vdso] (tgid:18155 range:0x4f0000-0x4f1000)
+	        1  0.1325 [vdso] (tgid:10556 range:0xd2a000-0xd2b000)
+      737  0.0065 libanimation.so
+      707  0.0062 mod_reqtimeout.so
+      691  0.0061 libgthread-2.0.so.0.2400.1
+      645  0.0057 libgconf-2.so.4.1.5
+      635  0.0056 ssh
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      623 98.1102 ssh
+	        5  0.7874 [vdso] (tgid:15032 range:0x7f8000-0x7f9000)
+	        1  0.1575 [vdso] (tgid:15052 range:0xbdb000-0xbdc000)
+	        1  0.1575 [vdso] (tgid:15065 range:0x110000-0x111000)
+	        1  0.1575 [vdso] (tgid:15109 range:0x154000-0x155000)
+	        1  0.1575 [vdso] (tgid:15119 range:0x6aa000-0x6ab000)
+	        1  0.1575 [vdso] (tgid:15143 range:0x26a000-0x26b000)
+	        1  0.1575 [vdso] (tgid:15164 range:0x9b9000-0x9ba000)
+	        1  0.1575 [vdso] (tgid:15230 range:0xc90000-0xc91000)
+      617  0.0054 libsvn_delta-1.so.0.0.0
+      600  0.0053 libdecoration.so
+      569  0.0050 libbrowsercomps.so
+      569  0.0050 libplc4.so
+      561  0.0049 libexpo.so
+      548  0.0048 libfile.so
+      531  0.0047 openssl.so
+      473  0.0042 libpangoft2-1.0.so.0.2800.0
+      468  0.0041 python2.6
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      436 93.1624 python2.6
+	       32  6.8376 [vdso] (tgid:23789 range:0x2dc000-0x2dd000)
+      391  0.0034 wnck-applet
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      391 100.000 [vdso] (tgid:29946 range:0xc21000-0xc22000)
+      385  0.0034 intel_agp
+      375  0.0033 libXfixes.so.3.1.0
+      371  0.0033 libwall.so
+      362  0.0032 libpango-1.0.so.0.2800.0
+      336  0.0030 libnss_dns-2.11.1.so
+      335  0.0030 mod_proxy_balancer.so
+      328  0.0029 libstaticswitcher.so
+      327  0.0029 evdev_drv.so
+      326  0.0029 libgconfbackend-xml.so
+      309  0.0027 libscale.so
+      307  0.0027 libdri2.so (deleted)
+      287  0.0025 libgcc_s.so.1
+      280  0.0025 troff
+      275  0.0024 mod_setenvif.so
+      268  0.0024 libresize.so
+      266  0.0023 libezoom.so
+      255  0.0022 libwnck-1.so.22.3.26
+      234  0.0021 libXext.so.6.4.0
+      232  0.0020 socket.so
+      229  0.0020 mod_headers.so
+      225  0.0020 libresizeinfo.so
+      220  0.0019 mod_negotiation.so
+      199  0.0018 libworkarounds.so
+      196  0.0017 mod_deflate.so
+      193  0.0017 less
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      189 97.9275 less
+	        2  1.0363 [vdso] (tgid:15672 range:0x71a000-0x71b000)
+	        1  0.5181 [vdso] (tgid:16016 range:0x1c1000-0x1c2000)
+	        1  0.5181 [vdso] (tgid:16101 range:0xa0e000-0xa0f000)
+      187  0.0016 mod_authz_host.so
+      181  0.0016 libdrm.so.2.4.0
+      179  0.0016 libmove.so
+      178  0.0016 agpgart
+      173  0.0015 mod_mime.so
+      164  0.0014 libXdamage.so.1.1.0
+      162  0.0014 libsvg.so
+      145  0.0013 digest.so
+      139  0.0012 libudev.so.0.6.1
+      137  0.0012 mod_alias.so
+      134  0.0012 libscaleaddon.so
+      131  0.0012 libxpcom.so
+      128  0.0011 libstartup-notification-1.so.0.0.0
+      125  0.0011 libncursesw.so.5.7
+      118  0.0010 libnss_mdns4_minimal.so.2
+      118  0.0010 libsession.so
+      117  0.0010 libk5crypto.so.3.1
+      116  0.0010 mod_env.so
+      116  0.0010 ntpd
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      110 94.8276 ntpd
+	        6  5.1724 [vdso] (tgid:1109 range:0x2d3000-0x2d4000)
+      100 8.8e-04 libimgicon.so
+       93 8.2e-04 libkrb5.so.3.3
+       91 8.0e-04 mod_proxy_ajp.so
+       91 8.0e-04 libregex.so
+       83 7.3e-04 gconfd-2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       52 62.6506 [vdso] (tgid:29844 range:0xb42000-0xb43000)
+	       31 37.3494 gconfd-2
+       78 6.9e-04 man
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       74 94.8718 man
+	        2  2.5641 [vdso] (tgid:15662 range:0xdf3000-0xdf4000)
+	        2  2.5641 [vdso] (tgid:16011 range:0xc16000-0xc17000)
+       74 6.5e-04 libsnap.so
+       72 6.3e-04 libncurses.so.5.7
+       70 6.2e-04 libplace.so
+       69 6.1e-04 libproc-3.2.8.so
+       67 5.9e-04 libvpswitch.so
+       66 5.8e-04 libneg.so
+       60 5.3e-04 mod_dir.so
+       57 5.0e-04 libdbus-glib-1.so.2.1.0
+       56 4.9e-04 libgssapi_krb5.so.2.2
+       55 4.8e-04 client.so
+       52 4.6e-04 grotty
+       46 4.1e-04 libpyglib-2.0-python2.6.so.0.0.0
+       42 3.7e-04 dbus-daemon
+       39 3.4e-04 libsvn_client-1.so.0.0.0
+       39 3.4e-04 init
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       38 97.4359 init
+	        1  2.5641 [vdso] (tgid:1 range:0xf4f000-0xf50000)
+       36 3.2e-04 sha2.so
+       36 3.2e-04 dhcpd3
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       35 97.2222 dhcpd3
+	        1  2.7778 [vdso] (tgid:15535 range:0x4da000-0x4db000)
+       33 2.9e-04 libnss_compat-2.11.1.so
+       33 2.9e-04 libcompizconfig.so.0.0.0
+       32 2.8e-04 libXt.so.6.0.0
+       30 2.6e-04 libuuid.so.1.3.0
+       28 2.5e-04 rsyslogd
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       26 92.8571 rsyslogd
+	        2  7.1429 [vdso] (tgid:669 range:0x917000-0x918000)
+       27 2.4e-04 libdbe.so (deleted)
+       26 2.3e-04 libkrb5support.so.0.1
+       24 2.1e-04 libusbmuxd.so.1.0.0
+       24 2.1e-04 _gtk.so
+       23 2.0e-04 mod_cgid.so
+       23 2.0e-04 libmozgnome.so
+       22 1.9e-04 libdl-2.11.1.so
+       20 1.8e-04 md5.so
+       19 1.7e-04 libccp.so
+       19 1.7e-04 libxklavier.so.16.0.0
+       18 1.6e-04 mod_autoindex.so
+       17 1.5e-04 libglx.so (deleted)
+       16 1.4e-04 _gobject.so
+       14 1.2e-04 binfmt_misc
+       14 1.2e-04 vmstat
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 42.8571 vmstat
+	        3 21.4286 [vdso] (tgid:15545 range:0xbe0000-0xbe1000)
+	        2 14.2857 [vdso] (tgid:15985 range:0xe1c000-0xe1d000)
+	        2 14.2857 [vdso] (tgid:16060 range:0xf76000-0xf77000)
+	        1  7.1429 [vdso] (tgid:16113 range:0x550000-0x551000)
+       14 1.2e-04 udisks-daemon
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 50.0000 udisks-daemon
+	        7 50.0000 [vdso] (tgid:29905 range:0x91b000-0x91c000)
+       13 1.1e-04 gvfs-afc-volume-monitor
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       13 100.000 [vdso] (tgid:29907 range:0x276000-0x277000)
+       12 1.1e-04 libnih.so.1.0.0
+       12 1.1e-04 gnome-screensaver
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 58.3333 [vdso] (tgid:29971 range:0xe34000-0xe35000)
+	        5 41.6667 gnome-screensaver
+       12 1.1e-04 scp
+       12 1.1e-04 libgdu.so.0.0.0
+       11 9.7e-05 ssh-agent
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 81.8182 ssh-agent
+	        2 18.1818 [vdso] (tgid:30984 range:0x9dc000-0x9dd000)
+       11 9.7e-05 libpulse-mainloop-glib.so.0.0.4
+       10 8.8e-05 libcom_err.so.2.1
+       10 8.8e-05 gnome-settings-daemon
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       10 100.000 [vdso] (tgid:29850 range:0x3d6000-0x3d7000)
+        9 7.9e-05 libnss_nis-2.11.1.so
+        9 7.9e-05 gnome-panel
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 [vdso] (tgid:29875 range:0xd81000-0xd82000)
+        8 7.0e-05 xload
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 87.5000 [vdso] (tgid:11515 range:0x433000-0x434000)
+	        1 12.5000 xload
+        8 7.0e-05 UTF-16.so
+        7 6.2e-05 dash
+        7 6.2e-05 gzip
+        7 6.2e-05 update-notifier
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 71.4286 [vdso] (tgid:30003 range:0x453000-0x454000)
+	        2 28.5714 update-notifier
+        7 6.2e-05 clock-applet
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 57.1429 [vdso] (tgid:29963 range:0x1a1000-0x1a2000)
+	        3 42.8571 clock-applet
+        7 6.2e-05 liba11y-keyboard.so
+        6 5.3e-05 pango-basic-fc.so
+        5 4.4e-05 tr
+        5 4.4e-05 libnss3.so
+        5 4.4e-05 libmedia-keys.so
+        5 4.4e-05 libXaw7.so.7.0.0
+        5 4.4e-05 libXi.so.6.1.0
+        4 3.5e-05 gnome-terminal
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 [vdso] (tgid:29862 range:0xb79000-0xb7a000)
+        4 3.5e-05 libsoftokn3.so
+        4 3.5e-05 libXss.so.1.0.0
+        4 3.5e-05 libkrb5.so.3.3 (deleted)
+        4 3.5e-05 libpangocairo-1.0.so.0.2800.0
+        4 3.5e-05 rtkit-daemon
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        3 75.0000 rtkit-daemon
+	        1 25.0000 [vdso] (tgid:1125 range:0x2c8000-0x2c9000)
+        3 2.6e-05 libcrypt-2.11.1.so
+        3 2.6e-05 dhclient3
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 66.6667 dhclient3
+	        1 33.3333 [vdso] (tgid:756 range:0x437000-0x438000)
+        3 2.6e-05 sunrpc
+        3 2.6e-05 gawk
+        3 2.6e-05 gnome-power-manager (deleted)
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 66.6667 [vdso] (tgid:29882 range:0x65f000-0x660000)
+	        1 33.3333 gnome-power-manager (deleted)
+        3 2.6e-05 gtk-window-decorator
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 66.6667 [vdso] (tgid:29940 range:0x94f000-0x950000)
+	        1 33.3333 gtk-window-decorator
+        3 2.6e-05 libgconf.so (deleted)
+        3 2.6e-05 libkeyboard.so
+        3 2.6e-05 libxrandr.so
+        3 2.6e-05 libgnome-desktop-2.so.17.1.0
+        2 1.8e-05 grep
+        2 1.8e-05 syck.so
+        2 1.8e-05 libgcrypt.so.11.5.2
+        2 1.8e-05 libkeyutils-1.2.so
+        2 1.8e-05 nfs
+        2 1.8e-05 preconv
+        2 1.8e-05 tbl
+        2 1.8e-05 libhousekeeping.so
+        2 1.8e-05 indicator-applet-session
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 100.000 [vdso] (tgid:29957 range:0x30e000-0x30f000)
+        2 1.8e-05 libgnome-keyring.so.0.1.1
+        1 8.8e-06 ls
+        1 8.8e-06 mkdir
+        1 8.8e-06 libssl.so.0.9.8
+        1 8.8e-06 libattr.so.1.1.0
+        1 8.8e-06 libgpg-error.so.0.4.0
+        1 8.8e-06 libnih-dbus.so.1.0.0
+        1 8.8e-06 libselinux.so.1
+        1 8.8e-06 libnsl-2.11.1.so
+        1 8.8e-06 groff
+        1 8.8e-06 libfreebl3.so
+        1 8.8e-06 libnssutil3.so
+        1 8.8e-06 libmouse.so
+        1 8.8e-06 libgdbm.so.3.0.0
+        1 8.8e-06 libgnutls.so.26.14.12
+        1 8.8e-06 libgssapi_krb5.so.2.2 (deleted)
+        1 8.8e-06 libk5crypto.so.3.1 (deleted)
+        1 8.8e-06 libkrb5support.so.0.1 (deleted)
+        1 8.8e-06 liblber-2.4.so.2.5.4
+        1 8.8e-06 libsasl2.so.2.0.23
+        1 8.8e-06 libtasn1.so.3.1.7
+        1 8.8e-06 imuxsock.so
+        1 8.8e-06 cron
