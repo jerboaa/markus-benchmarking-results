@@ -1,0 +1,188 @@
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0< HTTP/1.1 200 OK
+< Date: Sat, 12 Nov 2011 03:15:18 GMT
+< Server: Mongrel 1.1.5
+< Status: 200
+< ETag: "4bb80bc8e923059e0e74cee3a4ba9559"
+< X-Runtime: 21
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 1988
+< Cache-Control: private, max-age=0, must-revalidate
+* Added cookie _markus_session="BAh7BjoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ%3D--a8d4795430f9aa0f8f47170b0cb4fc6b37fd0d95" for domain tikal.red.sandbox, path /markus, expire 1322882143
+< Set-Cookie: _markus_session=BAh7BjoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ%3D--a8d4795430f9aa0f8f47170b0cb4fc6b37fd0d95; path=/markus; expires=Sat, 03-Dec-2011 03:15:43 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+100  1988  100  1988    0     0     81      0  0:00:24  0:00:24 --:--:--   470* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>MarkUs - login</title>
+  <link href="/markus/stylesheets/main.css?1316126555" media="all" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <div id="login">
+  <div id="login-greeting">Welcome to MarkUs!</div>
+
+  <div id="login-image">
+    <img alt="[Logo] Markus Beta" src="/markus/images/markus_logo_big.png?1316124759" />
+  </div>
+
+  <div id="login-course">CSC108 Fall 2009: Introduction to Computer Programming</div>
+
+    <div id="login-content">
+    <!-- login form -->    
+    <form action="/markus/en" id="login_form" method="post">
+  
+        <label for="user_login">Login</label>        <input id="user_login" name="user_login" tabindex="10" type="text" /><br />
+  
+        <label for="user_password">Password</label>
+        <input id="user_password" name="user_password" tabindex="20" type="password" /><br />
+
+        <input class="button indent_button" name="commit" onclick="if (window.hiddenCommit) { window.hiddenCommit.setAttribute('value', this.value); }else { hiddenCommit = document.createElement('input');hiddenCommit.type = 'hidden';hiddenCommit.value = this.value;hiddenCommit.name = this.name;this.form.appendChild(hiddenCommit); }this.setAttribute('originalValue', this.value);this.disabled = true;this.value='Logging in...';result = (this.form.onsubmit ? (this.form.onsubmit() ? this.form.submit() : false) : this.form.submit());if (result == false) { this.value = this.getAttribute('originalValue');this.disabled = false; }return result;" tabindex="100" type="submit" value="Log in" />
+        
+    </form>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+  try{ document.getElementById('user_login').focus(); } catch(e) {}
+//]]>
+</script>
+
+</body>
+</html>
++++ELAPSED TIME+++ 24.26 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> POST /markus/en HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7BjoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ%3D--a8d4795430f9aa0f8f47170b0cb4fc6b37fd0d95
+> Content-Length: 41
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [data not shown]
+100    41    0     0  100    41      0     40  0:00:01  0:00:01 --:--:--    40100    41    0     0  100    41      0     20  0:00:02  0:00:02 --:--:--    20100    41    0     0  100    41      0     13  0:00:03  0:00:03 --:--:--    13100    41    0     0  100    41      0     10  0:00:04  0:00:04 --:--:--    10100    41    0     0  100    41      0      8  0:00:05  0:00:05 --:--:--     8100    41    0     0  100    41      0      6  0:00:06  0:00:06 --:--:--     0100    41    0     0  100    41      0      5  0:00:08  0:00:07  0:00:01     0100    41    0     0  100    41      0      5  0:00:08  0:00:08 --:--:--     0100    41    0     0  100    41      0      4  0:00:10  0:00:09  0:00:01     0100    41    0     0  100    41      0      4  0:00:10  0:00:10 --:--:--     0100    41    0     0  100    41      0      3  0:00:13  0:00:11  0:00:02     0100    41    0     0  100    41      0      3  0:00:13  0:00:12  0:00:01     0100    41    0     0  100    41      0      3  0:00:13  0:00:13 --:--:--     0100    41    0     0  100    41      0      2  0:00:20  0:00:14  0:00:06     0100    41    0     0  100    41      0      2  0:00:20  0:00:15  0:00:05     0100    41    0     0  100    41      0      2  0:00:20  0:00:16  0:00:04     0100    41    0     0  100    41      0      2  0:00:20  0:00:17  0:00:03     0100    41    0     0  100    41      0      2  0:00:20  0:00:18  0:00:02     0100    41    0     0  100    41      0      2  0:00:20  0:00:19  0:00:01     0100    41    0     0  100    41      0      2  0:00:20  0:00:20 --:--:--     0100    41    0     0  100    41      0      1  0:00:41  0:00:21  0:00:20     0100    41    0     0  100    41      0      1  0:00:41  0:00:22  0:00:19     0100    41    0     0  100    41      0      1  0:00:41  0:00:23  0:00:18     0100    41    0     0  100    41      0      1  0:00:41  0:00:24  0:00:17     0100    41    0     0  100    41      0      1  0:00:41  0:00:25  0:00:16     0100    41    0     0  100    41      0      1  0:00:41  0:00:26  0:00:15     0100    41    0     0  100    41      0      1  0:00:41  0:00:27  0:00:14     0100    41    0     0  100    41      0      1  0:00:41  0:00:28  0:00:13     0100    41    0     0  100    41      0      1  0:00:41  0:00:29  0:00:12     0100    41    0     0  100    41      0      1  0:00:41  0:00:30  0:00:11     0100    41    0     0  100    41      0      1  0:00:41  0:00:31  0:00:10     0100    41    0     0  100    41      0      1  0:00:41  0:00:32  0:00:09     0100    41    0     0  100    41      0      1  0:00:41  0:00:33  0:00:08     0< HTTP/1.1 302 Moved Temporarily
+< Date: Sat, 12 Nov 2011 03:15:43 GMT
+< Server: Mongrel 1.1.5
+< Status: 302
+< Location: http://tikal.red.sandbox/markus/en/main
+< X-Runtime: 168
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 105
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ6CHVpZGkCDgM6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDYPpG8DtmQ25BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNdukbwO2ZDbkGOwpU--9a8e2b152965e2ea1ad802c4585af07e11b89489" for domain tikal.red.sandbox, path /markus, expire 1322882176
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ6CHVpZGkCDgM6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDYPpG8DtmQ25BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNdukbwO2ZDbkGOwpU--9a8e2b152965e2ea1ad802c4585af07e11b89489; path=/markus; expires=Sat, 03-Dec-2011 03:16:16 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+100   146  100   105  100    41      3      1  0:00:41  0:00:33  0:00:08    13100   146  100   105  100    41      3      1  0:00:41  0:00:33  0:00:08    17* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<html><body>You are being <a href="http://tikal.red.sandbox/markus/en/main">redirected</a>.</body></html>+++ELAPSED TIME+++ 33.82 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ6CHVpZGkCDgM6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDYPpG8DtmQ25BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNdukbwO2ZDbkGOwpU--9a8e2b152965e2ea1ad802c4585af07e11b89489
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0< HTTP/1.1 302 Moved Temporarily
+< Date: Sat, 12 Nov 2011 03:16:17 GMT
+< Server: Mongrel 1.1.5
+< Status: 302
+< Location: http://tikal.red.sandbox/markus/en/main/assignments
+< X-Runtime: 3
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 117
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ6CHVpZGkCDgM6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDYPpG8DvLOW8BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNdukbwO8s5bwGOwpU--b931b8a9b481d3cbb7954a26f53a435adfcfa209" for domain tikal.red.sandbox, path /markus, expire 1322882234
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ6CHVpZGkCDgM6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDYPpG8DvLOW8BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNdukbwO8s5bwGOwpU--b931b8a9b481d3cbb7954a26f53a435adfcfa209; path=/markus; expires=Sat, 03-Dec-2011 03:17:14 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+100   117  100   117    0     0      2      0  0:00:58  0:00:57  0:00:01    27* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<html><body>You are being <a href="http://tikal.red.sandbox/markus/en/main/assignments">redirected</a>.</body></html>+++ELAPSED TIME+++ 57.34 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main/assignments HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ6CHVpZGkCDgM6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDYPpG8DvLOW8BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNdukbwO8s5bwGOwpU--b931b8a9b481d3cbb7954a26f53a435adfcfa209
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0* Empty reply from server
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0* Connection #0 to host tikal.red.sandbox left intact
+
+curl: (52) Empty reply from server
+* Closing connection #0
++++ELAPSED TIME+++ 3.57 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main/assignments/student_interface/1 HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlZGRhNWM3YTQ2NTUzMzU3N2M3ZGQ1MDNkMjIwZWIzMWQ6CHVpZGkCDgM6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDYPpG8DvLOW8BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNdukbwO8s5bwGOwpU--b931b8a9b481d3cbb7954a26f53a435adfcfa209
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0* Recv failure: Connection reset by peer
+  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0* Closing connection #0
+
+curl: (56) Recv failure: Connection reset by peer
++++ELAPSED TIME+++ 10.30 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
+* couldn't connect to host
+* Closing connection #0
+
+curl: (7) couldn't connect to host
++++ELAPSED TIME+++ 0.10 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
+* couldn't connect to host
+* Closing connection #0
+
+curl: (7) couldn't connect to host
++++ELAPSED TIME+++ 0.16 +++
