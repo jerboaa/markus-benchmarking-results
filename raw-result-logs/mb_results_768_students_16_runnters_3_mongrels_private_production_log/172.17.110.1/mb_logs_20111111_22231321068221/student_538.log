@@ -1,79 +1,0 @@
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
-* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
-> GET /markus/en HTTP/1.1
-> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
-> Host: tikal.red.sandbox
-> Accept: */*
-> 
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0* Empty reply from server
-  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0* Connection #0 to host tikal.red.sandbox left intact
-
-curl: (52) Empty reply from server
-* Closing connection #0
-+++ELAPSED TIME+++ 10.50 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
-* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
-> POST /markus/en HTTP/1.1
-> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
-> Host: tikal.red.sandbox
-> Accept: */*
-> Content-Length: 41
-> Content-Type: application/x-www-form-urlencoded
-> 
-} [data not shown]
-100    41    0     0  100    41      0     39  0:00:01  0:00:01 --:--:--    40100    41    0     0  100    41      0     20  0:00:02  0:00:02 --:--:--    20100    41    0     0  100    41      0     13  0:00:03  0:00:03 --:--:--    13100    41    0     0  100    41      0     10  0:00:04  0:00:04 --:--:--    10100    41    0     0  100    41      0      8  0:00:05  0:00:05 --:--:--     8100    41    0     0  100    41      0      6  0:00:06  0:00:06 --:--:--     0100    41    0     0  100    41      0      5  0:00:08  0:00:07  0:00:01     0100    41    0     0  100    41      0      5  0:00:08  0:00:08 --:--:--     0100    41    0     0  100    41      0      4  0:00:10  0:00:09  0:00:01     0100    41    0     0  100    41      0      4  0:00:10  0:00:10 --:--:--     0* Recv failure: Connection reset by peer
-100    41    0     0  100    41      0      3  0:00:13  0:00:10  0:00:03     0* Closing connection #0
-
-curl: (56) Recv failure: Connection reset by peer
-+++ELAPSED TIME+++ 10.33 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.11 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.11 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.09 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.09 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.10 +++

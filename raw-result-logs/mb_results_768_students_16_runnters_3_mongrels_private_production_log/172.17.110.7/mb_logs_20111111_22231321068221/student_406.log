@@ -1,69 +1,0 @@
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
-* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
-> GET /markus/en HTTP/1.1
-> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
-> Host: tikal.red.sandbox
-> Accept: */*
-> 
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0* Recv failure: Connection reset by peer
-  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0* Closing connection #0
-
-curl: (56) Recv failure: Connection reset by peer
-+++ELAPSED TIME+++ 10.36 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.08 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.08 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.09 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.10 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.08 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.06 +++

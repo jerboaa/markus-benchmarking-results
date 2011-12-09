@@ -1,106 +1,0 @@
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
-* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
-> GET /markus/en HTTP/1.1
-> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
-> Host: tikal.red.sandbox
-> Accept: */*
-> 
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0* Empty reply from server
-  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0* Connection #0 to host tikal.red.sandbox left intact
-
-curl: (52) Empty reply from server
-* Closing connection #0
-+++ELAPSED TIME+++ 36.79 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
-* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
-> POST /markus/en HTTP/1.1
-> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
-> Host: tikal.red.sandbox
-> Accept: */*
-> Content-Length: 41
-> Content-Type: application/x-www-form-urlencoded
-> 
-} [data not shown]
-100    41    0     0  100    41      0     38  0:00:01  0:00:01 --:--:--    39100    41    0     0  100    41      0     19  0:00:02  0:00:02 --:--:--    20100    41    0     0  100    41      0     13  0:00:03  0:00:03 --:--:--    13100    41    0     0  100    41      0     10  0:00:04  0:00:04 --:--:--    10100    41    0     0  100    41      0      8  0:00:05  0:00:05 --:--:--     8100    41    0     0  100    41      0      6  0:00:06  0:00:06 --:--:--     0100    41    0     0  100    41      0      5  0:00:08  0:00:07  0:00:01     0100    41    0     0  100    41      0      5  0:00:08  0:00:08 --:--:--     0100    41    0     0  100    41      0      4  0:00:10  0:00:09  0:00:01     0100    41    0     0  100    41      0      4  0:00:10  0:00:10 --:--:--     0* Recv failure: Connection reset by peer
-100    41    0     0  100    41      0      3  0:00:13  0:00:10  0:00:03     0* Closing connection #0
-
-curl: (56) Recv failure: Connection reset by peer
-+++ELAPSED TIME+++ 10.38 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.10 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.09 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.11 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Connection refused
-* couldn't connect to host
-* Closing connection #0
-
-curl: (7) couldn't connect to host
-+++ELAPSED TIME+++ 0.12 +++
-* About to connect() to tikal.red.sandbox port 80 (#0)
-*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
-* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
-> POST /markus/en/main/submissions/update_files/1 HTTP/1.1
-> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
-> Host: tikal.red.sandbox
-> Accept: */*
-> Content-Length: 81416
-> Expect: 100-continue
-> Content-Type: multipart/form-data; boundary=----------------------------b56d9b21f2a0
-> 
-< HTTP/1.1 100 Continue
-} [data not shown]
-< HTTP/1.1 302 Moved Temporarily
-< Date: Sat, 12 Nov 2011 03:17:28 GMT
-< Server: Mongrel 1.1.5
-< Status: 302
-< Location: http://tikal.red.sandbox/markus/en
-< X-Runtime: 1
-< Content-Type: text/html; charset=utf-8
-< Content-Length: 100
-< Cache-Control: no-cache
-* Added cookie auth_token="" for domain tikal.red.sandbox, path /, expire 1
-< Set-Cookie: auth_token=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
-* Added cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlZmIxYTVkMTM3YmYzZWQ4ZjQ0MzRhYWE2MzQ2NDgzN2E6EXJlZGlyZWN0X3VyaSIvL21hcmt1cy9lbi9tYWluL3N1Ym1pc3Npb25zL3VwZGF0ZV9maWxlcy8xIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewY6EWxvZ2luX25vdGljZSIsWW91ciBzZXNzaW9uIGhhcyBleHBpcmVkLiBQbGVhc2UgbG9nIGluBjoKQHVzZWR7BjsIRg%3D%3D--540e427e319fe013636d08251c4361aba73e70f1" for domain tikal.red.sandbox, path /markus, expire 1322882249
-< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlZmIxYTVkMTM3YmYzZWQ4ZjQ0MzRhYWE2MzQ2NDgzN2E6EXJlZGlyZWN0X3VyaSIvL21hcmt1cy9lbi9tYWluL3N1Ym1pc3Npb25zL3VwZGF0ZV9maWxlcy8xIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewY6EWxvZ2luX25vdGljZSIsWW91ciBzZXNzaW9uIGhhcyBleHBpcmVkLiBQbGVhc2UgbG9nIGluBjoKQHVzZWR7BjsIRg%3D%3D--540e427e319fe013636d08251c4361aba73e70f1; path=/markus; expires=Sat, 03-Dec-2011 03:17:29 GMT; HttpOnly
-< Via: 1.1 tikal.red.sandbox
-< Vary: Accept-Encoding
-< 
-{ [data not shown]
-100 81516  100   100  100 81416    350   278k --:--:-- --:--:-- --:--:--  302k* Connection #0 to host tikal.red.sandbox left intact
-
-* Closing connection #0
-<html><body>You are being <a href="http://tikal.red.sandbox/markus/en">redirected</a>.</body></html>+++ELAPSED TIME+++ 0.32 +++
