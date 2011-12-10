@@ -1,0 +1,55 @@
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8006.pid and log/mongrel.8006.log for info.
+** Starting Mongrel listening at 172.17.110.66:8006
+** Starting Rails with production environment...
+NOTE: SourceIndex.new(hash) is deprecated; From /usr/lib/ruby/gems/1.8/gems/rails-2.3.10/lib/rails/vendor_gem_source_index.rb:100:in `new'.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /usr/lib/ruby/gems/1.8/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109
+.
+NOTE: from_installed_gems(arg) is deprecated. From /usr/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 172.17.110.66:8006
+** Writing PID file to tmp/pids/mongrel.8006.pid
+Fri Dec 09 20:10:55 -0500 2011: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]>
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/cgi.rb:108:in `send_cookies'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/cgi.rb:136:in `out'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/http_response.rb:65:in `start'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/cgi.rb:135:in `out'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:81:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/usr/bin/mongrel_rails:19:in `load'
+/usr/bin/mongrel_rails:19
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8006.pid and log/mongrel.8006.log for info.
+** Starting Mongrel listening at 172.17.110.66:8006
+** Starting Rails with production environment...
+NOTE: SourceIndex.new(hash) is deprecated; From /usr/lib/ruby/gems/1.8/gems/rails-2.3.10/lib/rails/vendor_gem_source_index.rb:100:in `new'.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /usr/lib/ruby/gems/1.8/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109
+.
+NOTE: from_installed_gems(arg) is deprecated. From /usr/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 172.17.110.66:8006
+** Writing PID file to tmp/pids/mongrel.8006.pid
