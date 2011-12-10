@@ -1,0 +1,14 @@
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.8007.pid and log/mongrel.8007.log for info.
+** Starting Mongrel listening at 172.17.110.66:8007
+** Starting Rails with production environment...
+NOTE: SourceIndex.new(hash) is deprecated; From /usr/lib/ruby/gems/1.8/gems/rails-2.3.10/lib/rails/vendor_gem_source_index.rb:100:in `new'.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /usr/lib/ruby/gems/1.8/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109
+.
+NOTE: from_installed_gems(arg) is deprecated. From /usr/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 172.17.110.66:8007
+** Writing PID file to tmp/pids/mongrel.8007.pid

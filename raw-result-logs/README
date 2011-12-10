@@ -1,0 +1,18 @@
+Experiment | Setup                                                                            | Folder
+----------------------------------------------------------------------------------------------------------
+1          | 3 mongrels, 1 client, 1 runner, 100 Students        | mb_results_1
+2          | 3 mongrels, 7 clients, 2 runners, 400 Students      | mb_results_2
+3          | 3 mongrels, 7 clients, 2 runners, 700 Students      | mb_results_3
+4          | 3 mongrels, 7 clients, 2 runners, 1400 Students     | mb_results_4
+5          | 3 mongrels, 7 clients, 5 runners, 1400 Students     | mb_results_5
+6          | 3 mongrels, 7 clients, 15 runners, 2100 Students    | mb_results_6
+7          | 6 mongrels, 7 clients, 15 runners, 2100 Students    | mb_results_7
+8          | 12 mongrels, 7 clients, 15 runners, 2100 Students   | mb_results_8
+9          | 12 mongrels, 6 clients, 18 runners, 1944 Students,
+             2 x 6 mongrels on different hosts                   | mb_results_9
+10         | 22 mongrels, 6 clients, 18 runners, 1944 Students,
+             1 x 12 mongrels plus 1 x 10 mongrels on different
+             hosts                                               | mb_results_10
+11         | 22 mongrels, 6 clients, 18 runners, 1944 Students,
+             1 x 12 mongrels plus 1 x 10 mongrels on different
+             hosts, loglevel == :fatal                           | mb_results_11

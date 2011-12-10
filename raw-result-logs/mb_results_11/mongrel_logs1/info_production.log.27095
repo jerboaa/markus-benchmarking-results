@@ -1,0 +1,560 @@
+# Logfile created on Fri Dec 09 21:39:49 -0500 2011 by logger.rb/1.2.6
+I, [2011-12-09 21:39:49  #27095]  INFO -- : User 'student_163' logged in.
+I, [2011-12-09 21:39:54  #27095]  INFO -- : User 'student_541' logged in.
+I, [2011-12-09 21:39:55  #27095]  INFO -- : User 'student_613' logged in.
+I, [2011-12-09 21:40:02  #27095]  INFO -- : User 'student_326' logged in.
+I, [2011-12-09 21:40:08  #27095]  INFO -- : User 'student_1405' logged in.
+I, [2011-12-09 21:40:11  #27095]  INFO -- : User 'student_1621' logged in.
+I, [2011-12-09 21:40:15  #27095]  INFO -- : User 'student_1747' logged in.
+I, [2011-12-09 21:40:18  #27095]  INFO -- : User 'student_1837' logged in.
+I, [2011-12-09 21:40:21  #27095]  INFO -- : User 'student_614' logged in.
+I, [2011-12-09 21:40:35  #27095]  INFO -- : User 'student_1838' logged in.
+I, [2011-12-09 21:40:53  #27095]  INFO -- : User 'student_1298' logged in.
+I, [2011-12-09 21:40:54  #27095]  INFO -- : User 'student_1802' logged in.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:40:58  #27095]  INFO -- : Student 'student_381' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:03  #27095]  INFO -- : User 'student_1856' logged in.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:06  #27095]  INFO -- : Student 'student_920' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:10  #27095]  INFO -- : User 'student_148' logged in.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:23  #27095]  INFO -- : Student 'student_1910' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:41:26  #27095]  INFO -- : User 'student_366' logged in.
+I, [2011-12-09 21:41:38  #27095]  INFO -- : User 'student_383' logged in.
+I, [2011-12-09 21:41:39  #27095]  INFO -- : User 'student_1371' logged in.
+I, [2011-12-09 21:41:46  #27095]  INFO -- : User 'student_903' logged in.
+I, [2011-12-09 21:41:53  #27095]  INFO -- : User 'student_1138' logged in.
+I, [2011-12-09 21:41:57  #27095]  INFO -- : User 'student_203' logged in.
+I, [2011-12-09 21:42:14  #27095]  INFO -- : User 'student_1067' logged in.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:22  #27095]  INFO -- : Student 'student_725' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:29  #27095]  INFO -- : User 'student_1319' logged in.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:46  #27095]  INFO -- : Student 'student_653' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:52  #27095]  INFO -- : User 'student_1373' logged in.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:55  #27095]  INFO -- : Student 'student_708' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:42:56  #27095]  INFO -- : User 'student_385' logged in.
+I, [2011-12-09 21:42:56  #27095]  INFO -- : User 'student_420' logged in.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : Student 'student_1373' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:43:20  #27095]  INFO -- : User 'student_1374' logged in.
+I, [2011-12-09 21:43:27  #27095]  INFO -- : User 'student_511' logged in.
+I, [2011-12-09 21:43:39  #27095]  INFO -- : User 'student_386' logged in.
+I, [2011-12-09 21:43:40  #27095]  INFO -- : User 'student_80' logged in.
+I, [2011-12-09 21:44:09  #27095]  INFO -- : User 'student_1897' logged in.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:12  #27095]  INFO -- : Student 'student_798' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : Student 'student_350' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:15  #27095]  INFO -- : User 'student_1357' logged in.
+I, [2011-12-09 21:44:28  #27095]  INFO -- : User 'student_1160' logged in.
+I, [2011-12-09 21:44:29  #27095]  INFO -- : User 'student_547' logged in.
+I, [2011-12-09 21:44:37  #27095]  INFO -- : User 'student_943' logged in.
+I, [2011-12-09 21:44:39  #27095]  INFO -- : User 'student_1339' logged in.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : Student 'student_1124' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:47  #27095]  INFO -- : User 'student_691' logged in.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:49  #27095]  INFO -- : Student 'student_1482' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:52  #27095]  INFO -- : Student 'student_744' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:44:53  #27095]  INFO -- : User 'student_1358' logged in.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:15  #27095]  INFO -- : Student 'student_691' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:16  #27095]  INFO -- : User 'student_389' logged in.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:29  #27095]  INFO -- : Student 'student_10' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:32  #27095]  INFO -- : Student 'student_1575' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:45:54  #27095]  INFO -- : User 'student_1844' logged in.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:00  #27095]  INFO -- : Student 'student_1414' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:04  #27095]  INFO -- : User 'student_136' logged in.
+I, [2011-12-09 21:46:10  #27095]  INFO -- : User 'student_1484' logged in.
+I, [2011-12-09 21:46:11  #27095]  INFO -- : User 'student_532' logged in.
+I, [2011-12-09 21:46:12  #27095]  INFO -- : User 'student_658' logged in.
+I, [2011-12-09 21:46:13  #27095]  INFO -- : User 'student_1231' logged in.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:18  #27095]  INFO -- : Student 'student_945' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:22  #27095]  INFO -- : User 'student_620' logged in.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:27  #27095]  INFO -- : Student 'student_1396' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:46:41  #27095]  INFO -- : User 'student_173' logged in.
+I, [2011-12-09 21:46:42  #27095]  INFO -- : User 'student_713' logged in.
+I, [2011-12-09 21:46:54  #27095]  INFO -- : User 'student_1075' logged in.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:00  #27095]  INFO -- : Student 'student_837' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:14  #27095]  INFO -- : User 'student_893' logged in.
+I, [2011-12-09 21:47:23  #27095]  INFO -- : User 'student_499' logged in.
+I, [2011-12-09 21:47:26  #27095]  INFO -- : User 'student_929' logged in.
+I, [2011-12-09 21:47:38  #27095]  INFO -- : User 'student_393' logged in.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : Student 'student_479' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:47:42  #27095]  INFO -- : User 'student_1033' logged in.
+I, [2011-12-09 21:47:47  #27095]  INFO -- : User 'student_1683' logged in.
+I, [2011-12-09 21:48:09  #27095]  INFO -- : User 'student_47' logged in.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:11  #27095]  INFO -- : Student 'student_1827' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:31  #27095]  INFO -- : Student 'student_912' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : Student 'student_355' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:33  #27095]  INFO -- : User 'student_1542' logged in.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:38  #27095]  INFO -- : Student 'student_1594' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:40  #27095]  INFO -- : Student 'student_230' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:41  #27095]  INFO -- : User 'student_1254' logged in.
+I, [2011-12-09 21:48:45  #27095]  INFO -- : User 'student_1291' logged in.
+I, [2011-12-09 21:48:48  #27095]  INFO -- : User 'student_1148' logged in.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:54  #27095]  INFO -- : Student 'student_518' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:48:55  #27095]  INFO -- : User 'student_519' logged in.
+I, [2011-12-09 21:49:05  #27095]  INFO -- : User 'student_1328' logged in.
+I, [2011-12-09 21:49:07  #27095]  INFO -- : User 'student_569' logged in.
+I, [2011-12-09 21:49:30  #27095]  INFO -- : User 'student_1922' logged in.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:49:40  #27095]  INFO -- : Student 'student_1815' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:06  #27095]  INFO -- : User 'student_1059' logged in.
+I, [2011-12-09 21:50:11  #27095]  INFO -- : User 'student_1669' logged in.
+I, [2011-12-09 21:50:15  #27095]  INFO -- : User 'student_822' logged in.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : Student 'student_1817' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : User 'student_140' logged in.
+I, [2011-12-09 21:50:44  #27095]  INFO -- : User 'student_1791' logged in.
+I, [2011-12-09 21:50:48  #27095]  INFO -- : User 'student_1670' logged in.
+I, [2011-12-09 21:50:49  #27095]  INFO -- : User 'student_1005' logged in.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:03  #27095]  INFO -- : Student 'student_719' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:14  #27095]  INFO -- : Student 'student_248' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:36  #27095]  INFO -- : Student 'student_953' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:52  #27095]  INFO -- : User 'student_341' logged in.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:55  #27095]  INFO -- : Student 'student_16' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:51:58  #27095]  INFO -- : Student 'student_1006' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:11  #27095]  INFO -- : User 'student_106' logged in.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:15  #27095]  INFO -- : Student 'student_1364' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:38  #27095]  INFO -- : Student 'student_414' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : Student 'student_18' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:49  #27095]  INFO -- : User 'student_1491' logged in.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:51  #27095]  INFO -- : Student 'student_1350' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:52:52  #27095]  INFO -- : User 'student_1778' logged in.
+I, [2011-12-09 21:52:52  #27095]  INFO -- : User 'student_142' logged in.
+I, [2011-12-09 21:53:11  #27095]  INFO -- : User 'student_738' logged in.
+I, [2011-12-09 21:53:20  #27095]  INFO -- : User 'student_1277' logged in.
+I, [2011-12-09 21:53:37  #27095]  INFO -- : User 'student_1476' logged in.
+I, [2011-12-09 21:53:37  #27095]  INFO -- : User 'student_1042' logged in.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:47  #27095]  INFO -- : Student 'student_972' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:53:58  #27095]  INFO -- : Student 'student_1044' submitted file 'rubrics_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'annotation_categories_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'results_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'groups_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'application_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'assignments_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'submissions_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'admins_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'annotations_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'tas_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'students_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'main_controller.rb' for assignment 'A1'.
+I, [2011-12-09 21:54:21  #27095]  INFO -- : Student 'student_1242' submitted file 'rubrics_controller.rb' for assignment 'A1'.

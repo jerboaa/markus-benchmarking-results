@@ -1,0 +1,956 @@
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0< HTTP/1.1 200 OK
+< Date: Sat, 10 Dec 2011 02:42:40 GMT
+< Server: Mongrel 1.1.5
+< Status: 200
+< ETag: "4bb80bc8e923059e0e74cee3a4ba9559"
+< X-Runtime: 14
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 1988
+< Cache-Control: private, max-age=0, must-revalidate
+* Added cookie _markus_session="BAh7BjoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU%3D--14ea766bb261d8f208bb29d4d15f0e1c62d4e89e" for domain tikal.red.sandbox, path /markus, expire 1325299361
+< Set-Cookie: _markus_session=BAh7BjoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU%3D--14ea766bb261d8f208bb29d4d15f0e1c62d4e89e; path=/markus; expires=Sat, 31-Dec-2011 02:42:41 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+ 46  1988   46   929    0     0    569      0  0:00:03  0:00:01  0:00:02   569100  1988  100  1988    0     0   1217      0  0:00:01  0:00:01 --:--:--  1218* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>MarkUs - login</title>
+  <link href="/markus/stylesheets/main.css?1316126555" media="all" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <div id="login">
+  <div id="login-greeting">Welcome to MarkUs!</div>
+
+  <div id="login-image">
+    <img alt="[Logo] Markus Beta" src="/markus/images/markus_logo_big.png?1316124759" />
+  </div>
+
+  <div id="login-course">CSC108 Fall 2009: Introduction to Computer Programming</div>
+
+    <div id="login-content">
+    <!-- login form -->    
+    <form action="/markus/en" id="login_form" method="post">
+  
+        <label for="user_login">Login</label>        <input id="user_login" name="user_login" tabindex="10" type="text" /><br />
+  
+        <label for="user_password">Password</label>
+        <input id="user_password" name="user_password" tabindex="20" type="password" /><br />
+
+        <input class="button indent_button" name="commit" onclick="if (window.hiddenCommit) { window.hiddenCommit.setAttribute('value', this.value); }else { hiddenCommit = document.createElement('input');hiddenCommit.type = 'hidden';hiddenCommit.value = this.value;hiddenCommit.name = this.name;this.form.appendChild(hiddenCommit); }this.setAttribute('originalValue', this.value);this.disabled = true;this.value='Logging in...';result = (this.form.onsubmit ? (this.form.onsubmit() ? this.form.submit() : false) : this.form.submit());if (result == false) { this.value = this.getAttribute('originalValue');this.disabled = false; }return result;" tabindex="100" type="submit" value="Log in" />
+        
+    </form>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+  try{ document.getElementById('user_login').focus(); } catch(e) {}
+//]]>
+</script>
+
+</body>
+</html>
++++ELAPSED TIME+++ 1.63 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> POST /markus/en HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7BjoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU%3D--14ea766bb261d8f208bb29d4d15f0e1c62d4e89e
+> Content-Length: 42
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [data not shown]
+< HTTP/1.1 302 Moved Temporarily
+< Date: Sat, 10 Dec 2011 02:42:41 GMT
+< Server: Mongrel 1.1.5
+< Status: 302
+< Location: http://tikal.red.sandbox/markus/en/main
+< X-Runtime: 221
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 105
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU6CHVpZGkCEAc6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDUPtG8ANA5MyBjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNNu0bwA0DkzIGOwpU--771d73c2418101306e594547c4d2d180039fb578" for domain tikal.red.sandbox, path /markus, expire 1325299361
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU6CHVpZGkCEAc6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDUPtG8ANA5MyBjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNNu0bwA0DkzIGOwpU--771d73c2418101306e594547c4d2d180039fb578; path=/markus; expires=Sat, 31-Dec-2011 02:42:41 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+100   147  100   105  100    42    447    178 --:--:-- --:--:-- --:--:--   452* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<html><body>You are being <a href="http://tikal.red.sandbox/markus/en/main">redirected</a>.</body></html>+++ELAPSED TIME+++ 0.23 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU6CHVpZGkCEAc6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDUPtG8ANA5MyBjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNNu0bwA0DkzIGOwpU--771d73c2418101306e594547c4d2d180039fb578
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0< HTTP/1.1 302 Moved Temporarily
+< Date: Sat, 10 Dec 2011 02:47:38 GMT
+< Server: Mongrel 1.1.5
+< Status: 302
+< Location: http://tikal.red.sandbox/markus/en/main/assignments
+< X-Runtime: 13
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 117
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNQ%2B0bwOw4CkcGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7Bw027RvA7DgKRwY7CFQ6CHVpZGkCEAc6D3Nlc3Npb25faWQiJTliOTIxNTJiMDdkYjRjMjQ3ZjMyNmQwYjk3Mjc2ODBl--1a79d217f74265bf67fbf75155b7f9bcea0abc3c" for domain tikal.red.sandbox, path /markus, expire 1325299668
+< Set-Cookie: _markus_session=BAh7CDoMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNQ%2B0bwOw4CkcGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7Bw027RvA7DgKRwY7CFQ6CHVpZGkCEAc6D3Nlc3Npb25faWQiJTliOTIxNTJiMDdkYjRjMjQ3ZjMyNmQwYjk3Mjc2ODBl--1a79d217f74265bf67fbf75155b7f9bcea0abc3c; path=/markus; expires=Sat, 31-Dec-2011 02:47:48 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+100   117  100   117    0     0     11      0  0:00:10  0:00:09  0:00:01    23100   117  100   117    0     0     11      0  0:00:10  0:00:09  0:00:01    29* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<html><body>You are being <a href="http://tikal.red.sandbox/markus/en/main/assignments">redirected</a>.</body></html>+++ELAPSED TIME+++ 9.96 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main/assignments HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNQ%2B0bwOw4CkcGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7Bw027RvA7DgKRwY7CFQ6CHVpZGkCEAc6D3Nlc3Npb25faWQiJTliOTIxNTJiMDdkYjRjMjQ3ZjMyNmQwYjk3Mjc2ODBl--1a79d217f74265bf67fbf75155b7f9bcea0abc3c
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0< HTTP/1.1 200 OK
+< Date: Sat, 10 Dec 2011 02:47:48 GMT
+< Server: Mongrel 1.1.5
+< Status: 200
+< ETag: "8c5067c2dc4a861f8da3f478cc45a667"
+< X-Runtime: 171
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 6525
+< Cache-Control: private, max-age=0, must-revalidate
+* Replaced cookie _markus_session="BAh7CDoIdWlkaQIQBzoMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNQ%2B0bwBqDDUgGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CA027RvAGoMNSAY7CVQ6D3Nlc3Npb25faWQiJTliOTIxNTJiMDdkYjRjMjQ3ZjMyNmQwYjk3Mjc2ODBl--885756be85ad76b386f4eb24ce0a648e42cc8850" for domain tikal.red.sandbox, path /markus, expire 1325299681
+< Set-Cookie: _markus_session=BAh7CDoIdWlkaQIQBzoMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNQ%2B0bwBqDDUgGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CA027RvAGoMNSAY7CVQ6D3Nlc3Npb25faWQiJTliOTIxNTJiMDdkYjRjMjQ3ZjMyNmQwYjk3Mjc2ODBl--885756be85ad76b386f4eb24ce0a648e42cc8850; path=/markus; expires=Sat, 31-Dec-2011 02:48:01 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>MarkUs - index</title>
+  <link href="/markus/stylesheets/main.css?1323474808" media="all" rel="stylesheet" type="text/css" />
+  <link href="/markus/stylesheets/livepipe/tabs.css?1323474731" media="all" rel="stylesheet" type="text/css" />
+  <script src="/markus/javascripts/prototype.js?1323474808" type="text/javascript"></script>
+<script src="/markus/javascripts/effects.js?1323474808" type="text/javascript"></script>
+<script src="/markus/javascripts/dragdrop.js?1323474808" type="text/javascript"></script>
+<script src="/markus/javascripts/controls.js?1323474808" type="text/javascript"></script>
+<script src="/markus/javascripts/application.js?1323474731" type="text/javascript"></script>  <script src="/markus/javascripts/menu.js?1323474731" type="text/javascript"></script>  
+</head>
+
+<body>
+  <div id="loggedIn">
+  
+
+<script src="/markus/javascripts/livepipe/livepipe.js?1323474731" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1323474731" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/tabs.js?1323474731" type="text/javascript"></script>
+
+<div id="header">
+  <div id="user_info">
+    <span id="logout_area">
+      <span id="lang_chooser">
+        Choose Language:
+        <select id="locale" name="locale" onchange="javascript:window.location.href = '/markus/en/main/assignments'.replace(/en/, this.options[this.selectedIndex].value);"><option value="en" selected="selected">en</option>
+<option value="fr">fr</option></select>
+      </span>
+      <a href="#" onclick="new Ajax.Request('/markus/en/main/about', {asynchronous:true, evalScripts:true, onComplete:function(request){about_modal.open();}}); return false;"><img alt="About MarkUs" id="about_icon" src="/markus/images/icons/information.png?1323474731" title="About MarkUs" /></a>
+
+      <span id="admin_logged_in_as">
+        
+      </span>
+      <span id="user_name">
+        Bob 1587 Blaster 1587
+        ( <b>student_1587</b> )
+      </span>
+      
+
+      <a href="/markus/en/main/main/logout/logout_link">Log out</a>
+      
+    </span>
+  </div>
+  <div id="working" style="display:none;">
+    Working...
+  </div>
+  <div id="course">
+    <b>CSC108 Fall 2009: Introduction to Computer Programming</b>
+  </div>
+</div>
+<div id="logo">
+  <a href="http://tikal.red.sandbox/markus/en"><img alt="Markus_logo_small" src="/markus/images/markus_logo_small.png?1323474731" /></a>
+
+
+</div>
+
+  
+
+<div id="menu">
+
+      <span  id ="menu_active">
+	   <a href="/markus/en/main/assignments">Home</a>
+	</span>
+
+
+
+
+</div>
+
+  
+
+<div id="sub_menu">
+  <ul id="root" class="level1 horizontal">
+   <li class="level1 visible_dropdown">
+     
+       <span id="choose_an_assignment">Choose...</span>
+     
+        <ul class="level2 dropdown">
+           
+
+
+
+  
+    
+      
+        <li class="level2">
+          <a href="/markus/en/main/assignments/student_interface/2">A2</a>
+        </li>
+      
+    
+  
+
+  
+    
+      
+        <li class="level2">
+          <a href="/markus/en/main/assignments/student_interface/1">A1</a>
+        </li>
+      
+    
+  
+
+
+
+
+
+
+
+
+        </ul>
+   </li>
+	 
+  
+	
+  
+   </ul>
+</div>
+
+
+
+  <script src="/markus/javascripts/livepipe/livepipe.js?1323474731" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1323474731" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+  
+ var about_modal = null;
+
+ document.observe("dom:loaded", function(){
+    about_modal = new Control.Modal($('about_dialog'), {
+      overlayOpacity: 0.75,
+      className: 'about_modal',
+      fade: false
+    });
+ });
+//]]>
+</script>
+<!-- about scaffold -->
+<div id="about_dialog" style="display: none;">
+  <!-- about dialog content gets injected here -->
+  <div>&nbsp;</div>
+</div>
+
+  <script src="/markus/javascripts/livepipe/livepipe.js?13100  6525  100  6525    0     0    528      0  0:00:12  0:00:12 --:--:--  1503* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+23474731" type="text/javascript"></script>
+<script src="/markus/javascripts/livepipe/window.js?1323474731" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var role_switch_modal = null;
+
+document.observe("dom:loaded", function(){
+    //Create the modal dialog
+  role_switch_modal = new Control.Modal($('role_switch_dialog'),
+  {
+    overlayOpacity: 0.75,
+    className: 'role_switch_modal',
+    fade:false
+
+  });
+});
+//]]>
+</script>
+
+<div id="role_switch_dialog" style="display:none;">
+  <!-- Role switch content gets injected here -->
+  <div>&nbsp;</div>
+</div>
+
+<div id="container">
+  <div id="content">
+<noscript>
+<div class="warning">
+This page uses Javascript. Your browser either doesn't support javascript
+or you have turned it off. <br />
+To see this page as it is meant to appear, please use a Javascript
+enable browser.
+</div>
+</noscript>
+
+    <div class="title_bar"><h1>Your Assignments</h1></div>
+<div class="wrapLeft">
+<div class="section">
+
+  
+		
+    <table><!-- listing assignments -->
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Due Date</th>
+          <th>Results</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr>
+            <td>
+              <a href="/markus/en/main/assignments/student_interface/1">A1: Conditionals and Loops</a>
+            </td>
+            <td>
+              
+                
+                  <strong>December 09, 2011: 09:35pm</strong>
+                
+	      
+            </td>
+            <td style="width: 40%;">
+              
+                No marks are available for this assignment.
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>
+              <a href="/markus/en/main/assignments/student_interface/2">A2: Cats and Dogs</a>
+            </td>
+            <td>
+              
+                
+                  <strong>January 09, 2012: 09:34pm</strong><br />
+                    (30 day(s) and 23 hour(s) left)
+                
+	      
+            </td>
+            <td style="width: 40%;">
+              
+            </td>
+          </tr>
+        
+      </tbody>
+    </table>
+        
+  
+</div>
+</div>
+
+<div class="title_bar"><h1>Your Term Marks</h1></div>
+<div class="wrapLeft">
+  
+
+<div class="section">
+
+  
+    <p>There are currently no marks spreadsheets.</p>  
+  
+</div>
+
+</div>
+
+
+  </div> <!-- content -->
+</div> <!-- container -->
+</div>
+
+</body>
+</html>
++++ELAPSED TIME+++ 12.36 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main/assignments/student_interface/1 HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoIdWlkaQIQBzoMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNQ%2B0bwBqDDUgGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7CA027RvAGoMNSAY7CVQ6D3Nlc3Npb25faWQiJTliOTIxNTJiMDdkYjRjMjQ3ZjMyNmQwYjk3Mjc2ODBl--885756be85ad76b386f4eb24ce0a648e42cc8850
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0< HTTP/1.1 302 Moved Temporarily
+< Date: Sat, 10 Dec 2011 02:48:01 GMT
+< Server: Mongrel 1.1.5
+< Status: 302
+< Location: http://tikal.red.sandbox/markus/en/main/assignments/student_interface/1
+< X-Runtime: 3198
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 137
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNQ%2B0bwORqyEkGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7Bw027RvA5GrISQY7CFQ6CHVpZGkCEAc6D3Nlc3Npb25faWQiJTliOTIxNTJiMDdkYjRjMjQ3ZjMyNmQwYjk3Mjc2ODBl--8fc8b3f401e4402bbd8478550f04a7d5e7e7f171" for domain tikal.red.sandbox, path /markus, expire 1325299711
+< Set-Cookie: _markus_session=BAh7CDoMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNQ%2B0bwORqyEkGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7Bw027RvA5GrISQY7CFQ6CHVpZGkCEAc6D3Nlc3Npb25faWQiJTliOTIxNTJiMDdkYjRjMjQ3ZjMyNmQwYjk3Mjc2ODBl--8fc8b3f401e4402bbd8478550f04a7d5e7e7f171; path=/markus; expires=Sat, 31-Dec-2011 02:48:31 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< 
+{ [data not shown]
+100   137  100   137    0     0      4      0  0:00:34  0:00:30  0:00:04    29* Connection #0 to host tikal.red.sandbox left intact
+
+* Closing connection #0
+<html><body>You are being <a href="http://tikal.red.sandbox/markus/en/main/assignments/student_interface/1">redirected</a>.</body></html>+++ELAPSED TIME+++ 30.67 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> GET /markus/en/main/submissions/file_manager/1 HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoMdGltZW91dFU6IEFjdGl2ZVN1cHBvcnQ6OlRpbWVXaXRoWm9uZVsISXU6CVRpbWUNQ%2B0bwORqyEkGOh9AbWFyc2hhbF93aXRoX3V0Y19jb2VyY2lvblQiH0Vhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpSXU7Bw027RvA5GrISQY7CFQ6CHVpZGkCEAc6D3Nlc3Npb25faWQiJTliOTIxNTJiMDdkYjRjMjQ3ZjMyNmQwYjk3Mjc2ODBl--8fc8b3f401e4402bbd8478550f04a7d5e7e7f171
+> 
+< HTTP/1.1 500 Internal Server Error
+< Date: Sat, 10 Dec 2011 02:43:34 GMT
+< Server: Mongrel 1.1.5
+< Status: 500
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 17416
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU6CHVpZGkCEAc6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDUPtG8CbCCU2BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNNu0bwJsIJTYGOwpU--a4494e74b794a4fb5bed84c2d330870e8f718d34" for domain tikal.red.sandbox, path /markus, expire 1325299415
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU6CHVpZGkCEAc6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDUPtG8CbCCU2BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNNu0bwJsIJTYGOwpU--a4494e74b794a4fb5bed84c2d330870e8f718d34; path=/markus; expires=Sat, 31-Dec-2011 02:43:35 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< Connection: close
+< 
+{ [data not shown]
+  4 17416    4   788    0     0    917      0  0:00:18 --:--:--  0:00:18   919<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Action Controller: Exception caught</title>
+  <style>
+    body { background-color: #fff; color: #333; }
+
+    body, p, ol, ul, td {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size:   13px;
+      line-height: 18px;
+    }
+
+    pre {
+      background-color: #eee;
+      padding: 10px;
+      font-size: 11px;
+    }
+
+    a { color: #000; }
+    a:visited { color: #666; }
+    a:hover { color: #fff; background-color:#000; }
+  </style>
+</head>
+<body>
+
+<h1>
+  RuntimeError
+  
+    in SubmissionsController#file_manager
+  
+</h1>
+<pre>Repository not found and MarkUs not in authoritative mode!</pre>
+
+
+
+<p><code>RAILS_ROOT: /home/severin/markus/markus-clone-production</code></p>
+
+<div id="traces">
+  
+    
+    <a href="#" onclick="document.getElementById('Framework-Trace').style.display='none';document.getElementById('Full-Trace').style.display='none';document.getElementById('Application-Trace').style.display='block';; return false;">Application Trace</a> |
+  
+    
+    <a href="#" onclick="document.getElementById('Application-Trace').style.display='none';document.getElementById('Full-Trace').style.display='none';document.getElementById('Framework-Trace').style.display='block';; return false;">Framework Trace</a> |
+  
+    
+    <a href="#" onclick="document.getElementById('Application-Trace').style.display='none';document.getElementById('Framework-Trace').style.display='none';document.getElementById('Full-Trace').style.display='block';; return false;">Full Trace</a> 
+  
+
+  
+    <div id="Application-Trace" style="display: block;">
+      <pre><code>/home/severin/markus/markus-clone-production/app/models/group.rb:114:in `repo'
+/home/severin/markus/markus-clone-production/app/models/group.rb:120:in `access_repo'
+/home/severin/markus/markus-clone-production/app/controllers/submissions_controller.rb:524:in `set_filebrowser_vars'
+/home/severin/markus/markus-clone-production/app/controllers/submissions_controller.rb:131:in `file_manager'</code></pre>
+    </div>
+  
+    <div id="Framework-Trace" style="display: none;">
+      <pre><code>/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/associations/association_proxy.rb:215:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/associations/association_proxy.rb:215:in `method_missing'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `perform_action_without_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:617:in `call_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/severin/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/flash.rb:151:in `perform_action'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:606:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:391:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:386:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/routing/route_set.rb:438:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:9:in `cache'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:28:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/string_coercion.rb:25:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/params_parser.rb:15:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/session/cookie_store.rb:100:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/failsafe.rb:26:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:106:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/bin/mongrel_rails:19:in `load'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/bin/mongrel_rails:19</code></pre>
+    </div>
+  
+    <div id="Full-Trace" style="display: none;">
+      <pre><code>/home/severin/markus/markus-clone-production/app/models/group.rb:114:in `repo'
+/home/severin/markus/markus-clone-production/app/models/group.rb:120:in `access_repo'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/associations/association_proxy.rb:215:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/associations/association_proxy.rb:215:in `method_missing'
+/home/severin/markus/markus-clone-production/app/controllers/submissions_controller.rb:524:in `set_filebrowser_vars'
+/home/severin/markus/markus-clone-production/app/controllers/submissions_controller.rb:131:in `file_manager'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `perform_action_without_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:617:in `call_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/severin/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/flash.rb:151:in `perform_action'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:606:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:391:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:386:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/routing/route_set.rb:438:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:9:in `cache'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:28:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/string_coercion.rb:25:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/params_parser.rb:15:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/session/cookie_store.rb:100:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/failsafe.rb:26:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:106:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+/hom100 17416  100 17416    0     0  20256      0 --:--:-- --:--:-- --:--:-- 20298* Closing connection #0
+
+e/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/bin/mongrel_rails:19:in `load'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/bin/mongrel_rails:19</code></pre>
+    </div>
+  
+</div>
+
+
+
+
+
+
+<h2 style="margin-top: 30px">Request</h2>
+<p><b>Parameters</b>: <pre>{&quot;id&quot;=&gt;&quot;1&quot;,
+ &quot;locale&quot;=&gt;&quot;en&quot;}</pre></p>
+
+<p><a href="#" onclick="document.getElementById('session_dump').style.display='block'; return false;">Show session dump</a></p>
+<div id="session_dump" style="display:none"><pre class='debug_dump'>--- 
+</pre></div>
+
+
+<h2 style="margin-top: 30px">Response</h2>
+<p><b>Headers</b>: <pre>{&quot;Content-Type&quot;=&gt;&quot;&quot;,
+ &quot;Cache-Control&quot;=&gt;&quot;no-cache&quot;}</pre></p>
+
+
+
+</body>
+</html>+++ELAPSED TIME+++ 0.86 +++
+* About to connect() to tikal.red.sandbox port 80 (#0)
+*   Trying 172.17.110.63...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0connected
+* Connected to tikal.red.sandbox (172.17.110.63) port 80 (#0)
+> POST /markus/en/main/submissions/update_files/1 HTTP/1.1
+> User-Agent: curl/7.21.3 (i386-redhat-linux-gnu) libcurl/7.21.3 NSS/3.12.9.0 zlib/1.2.5 libidn/1.19 libssh2/1.2.7
+> Host: tikal.red.sandbox
+> Accept: */*
+> Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU6CHVpZGkCEAc6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDUPtG8CbCCU2BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNNu0bwJsIJTYGOwpU--a4494e74b794a4fb5bed84c2d330870e8f718d34
+> Content-Length: 81416
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------3c5b2bdb83b4
+> 
+< HTTP/1.1 100 Continue
+} [data not shown]
+100 81416    0     0  100 81416      0  80400  0:00:01  0:00:01 --:--:-- 80609100 81416    0     0  100 81416      0  40419  0:00:02  0:00:02 --:--:-- 40465100 81416    0     0  100 81416      0  26995  0:00:03  0:00:03 --:--:-- 27021100 81416    0     0  100 81416      0  20264  0:00:04  0:00:04 --:--:-- 20277100 81416    0     0  100 81416      0  16220  0:00:05  0:00:05 --:--:-- 16228< HTTP/1.1 500 Internal Server Error
+< Date: Sat, 10 Dec 2011 02:43:37 GMT
+< Server: Mongrel 1.1.5
+< Status: 500
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 17911
+< Cache-Control: no-cache
+* Replaced cookie _markus_session="BAh7CDoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU6CHVpZGkCEAc6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDUPtG8B%2B1Yw2BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNNu0bwH7VjDYGOwpU--cb52d4a66749df99da01c448b99e2d11abb05501" for domain tikal.red.sandbox, path /markus, expire 1325299420
+< Set-Cookie: _markus_session=BAh7CDoPc2Vzc2lvbl9pZCIlOWI5MjE1MmIwN2RiNGMyNDdmMzI2ZDBiOTcyNzY4MGU6CHVpZGkCEAc6DHRpbWVvdXRVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDUPtG8B%2B1Yw2BjofQG1hcnNoYWxfd2l0aF91dGNfY29lcmNpb25UIh9FYXN0ZXJuIFRpbWUgKFVTICYgQ2FuYWRhKUl1OwkNNu0bwH7VjDYGOwpU--cb52d4a66749df99da01c448b99e2d11abb05501; path=/markus; expires=Sat, 31-Dec-2011 02:43:40 GMT; HttpOnly
+< Via: 1.1 tikal.red.sandbox
+< Vary: Accept-Encoding
+< Connection: close
+< 
+{ [data not shown]
+ 82 99327    4   786  100 81416    136  14154  0:02:11  0:00:05  0:02:06     0<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Action Controller: Exception caught</title>
+  <style>
+    body { background-color: #fff; color: #333; }
+
+    body, p, ol, ul, td {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size:   13px;
+      line-height: 18px;
+    }
+
+    pre {
+      background-color: #eee;
+      padding: 10px;
+      font-size: 11px;
+    }
+
+    a { color: #000; }
+    a:visited { color: #666; }
+    a:hover { color: #fff; background-color:#000; }
+  </style>
+</head>
+<body>
+
+<h1>
+  RuntimeError
+  
+    in SubmissionsController#update_files
+  
+</h1>
+<pre>Repository not found and MarkUs not in authoritative mode!</pre>
+
+
+
+<p><code>RAILS_ROOT: /home/severin/markus/markus-clone-production</code></p>
+
+<div id="traces">
+  
+    
+    <a href="#" onclick="document.getElementById('Framework-Trace').style.display='none';document.getElementById('Full-Trace').style.display='none';document.getElementById('Application-Trace').style.display='block';; return false;">Application Trace</a> |
+  
+    
+    <a href="#" onclick="document.getElementById('Application-Trace').style.display='none';document.getElementById('Full-Trace').style.display='none';document.getElementById('Framework-Trace').style.display='block';; return false;">Framework Trace</a> |
+  
+    
+    <a href="#" onclick="document.getElementById('Application-Trace').style.display='none';document.getElementById('Framework-Trace').style.display='none';document.getElementById('Full-Trace').style.display='block';; return false;">Full Trace</a> 
+  
+
+  
+    <div id="Application-Trace" style="display: block;">
+      <pre><code>/home/severin/markus/markus-clone-production/app/models/group.rb:114:in `repo'
+/home/severin/markus/markus-clone-production/app/models/group.rb:120:in `access_repo'
+/home/severin/markus/markus-clone-production/app/controllers/submissions_controller.rb:303:in `update_files'</code></pre>
+    </div>
+  
+    <div id="Framework-Trace" style="display: none;">
+      <pre><code>/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/associations/association_proxy.rb:215:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/associations/association_proxy.rb:215:in `method_missing'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `perform_action_without_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:617:in `call_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/severin/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/flash.rb:151:in `perform_action'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:606:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:391:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:386:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/routing/route_set.rb:438:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:9:in `cache'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:28:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/string_coercion.rb:25:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/params_parser.rb:15:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/session/cookie_store.rb:100:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/failsafe.rb:26:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:106:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/bin/mongrel_rails:19:in `load'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/bin/mongrel_rails:19</code></pre>
+    </div>
+  
+    <div id="Full-Trace" style="display: none;">
+      <pre><code>/home/severin/markus/markus-clone-production/app/models/group.rb:114:in `repo'
+/home/severin/markus/markus-clone-production/app/models/group.rb:120:in `access_repo'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/associations/association_proxy.rb:215:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/associations/association_proxy.rb:215:in `method_missing'
+/home/severin/markus/markus-clone-production/app/controllers/submissions_controller.rb:303:in `update_files'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `perform_action_without_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:617:in `call_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/severin/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/flash.rb:151:in `perform_action'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `send'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/filters.rb:606:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:391:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/base.rb:386:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/routing/route_set.rb:438:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:9:in `cache'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:28:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/string_coercion.rb:25:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/params_parser.rb:15:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/session/cookie_store.rb:100:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/failsafe.rb:26:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:106:in `call'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+/home/severin/markus/.rvm/gems/ruby-1.8100 99327  100 17911  100 81416   3113  14152  0:00:05  0:00:05 --:--:--     0* Closing connection #0
+
+.7-p352/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/bin/mongrel_rails:19:in `load'
+/home/severin/markus/.rvm/gems/ruby-1.8.7-p352/bin/mongrel_rails:19</code></pre>
+    </div>
+  
+</div>
+
+
+
+
+
+
+<h2 style="margin-top: 30px">Request</h2>
+<p><b>Parameters</b>: <pre>{&quot;new_files&quot;=&gt;[#&lt;File:/tmp/RackMultipart20111209-27080-n49cd3-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-1h3yheu-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-bwkrwo-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-1tv83la-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-1gdyzc1-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-z6gnde-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-1qltjhi-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-1k41d0o-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-dej7aj-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-1m29u65-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-whzi0-0&gt;,
+ #&lt;File:/tmp/RackMultipart20111209-27080-vn8hjq-0&gt;],
+ &quot;id&quot;=&gt;&quot;1&quot;,
+ &quot;locale&quot;=&gt;&quot;en&quot;}</pre></p>
+
+<p><a href="#" onclick="document.getElementById('session_dump').style.display='block'; return false;">Show session dump</a></p>
+<div id="session_dump" style="display:none"><pre class='debug_dump'>--- 
+</pre></div>
+
+
+<h2 style="margin-top: 30px">Response</h2>
+<p><b>Headers</b>: <pre>{&quot;Content-Type&quot;=&gt;&quot;&quot;,
+ &quot;Cache-Control&quot;=&gt;&quot;no-cache&quot;}</pre></p>
+
+
+
+</body>
+</html>+++ELAPSED TIME+++ 5.75 +++
